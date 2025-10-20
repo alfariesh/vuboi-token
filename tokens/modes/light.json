@@ -290,88 +290,108 @@
     },
     "foreground": {
       "secondary": {
-        "value": "{colors.grayLightMode.700}",
-        "type": "color"
+        "default": {
+          "value": "{colors.grayLightMode.700}",
+          "type": "color"
+        }
       },
-      "warningPrimary": {
-        "value": "{colors.warning.600}",
-        "type": "color"
+      "warning": {
+        "primary": {
+          "value": "{colors.warning.600}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{colors.warning.500}",
+          "type": "color"
+        }
       },
-      "successPrimary": {
-        "value": "{colors.success.600}",
-        "type": "color"
+      "success": {
+        "primary": {
+          "value": "{colors.success.600}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{colors.success.500}",
+          "type": "color"
+        }
       },
       "white": {
-        "value": "{colors.base.white}",
-        "type": "color"
-      },
-      "successSecondary": {
-        "value": "{colors.success.500}",
-        "type": "color"
-      },
-      "secondaryHover": {
-        "value": "{colors.grayLightMode.800}",
-        "type": "color"
+        "default": {
+          "value": "{colors.base.white}",
+          "type": "color"
+        }
       },
       "primary": {
-        "value": "{colors.grayLightMode.900}",
-        "type": "color"
+        "secondaryHover": {
+          "value": "{colors.grayLightMode.800}",
+          "type": "color"
+        },
+        "default": {
+          "value": "{colors.grayLightMode.900}",
+          "type": "color"
+        }
       },
       "disabled": {
-        "value": "{colors.grayLightMode.400}",
-        "type": "color"
+        "default": {
+          "value": "{colors.grayLightMode.400}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{colors.grayLightMode.300}",
+          "type": "color"
+        }
       },
-      "brandSecondary": {
-        "value": "{colors.brand.500}",
-        "type": "color"
-      },
-      "brandPrimary": {
-        "value": "{colors.brand.600}",
-        "type": "color"
+      "brand": {
+        "secondary": {
+          "value": "{colors.brand.500}",
+          "type": "color"
+        },
+        "primary": {
+          "value": "{colors.brand.600}",
+          "type": "color"
+        },
+        "primaryAlt": {
+          "value": "{colors.foreground.brandPrimary}",
+          "type": "color"
+        },
+        "secondaryAlt": {
+          "value": "{colors.foreground.brandSecondary}",
+          "type": "color"
+        },
+        "secondaryHover": {
+          "value": "{colors.brand.600}",
+          "type": "color"
+        }
       },
       "quaternary": {
-        "value": "{colors.grayLightMode.400}",
-        "type": "color"
+        "default": {
+          "value": "{colors.grayLightMode.400}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{colors.grayLightMode.500}",
+          "type": "color"
+        }
       },
-      "quaternaryHover": {
-        "value": "{colors.grayLightMode.500}",
-        "type": "color"
-      },
-      "errorPrimary": {
-        "value": "{colors.error.600}",
-        "type": "color"
-      },
-      "disabledSubtle": {
-        "value": "{colors.grayLightMode.300}",
-        "type": "color"
-      },
-      "warningSecondary": {
-        "value": "{colors.warning.500}",
-        "type": "color"
-      },
-      "errorSecondary": {
-        "value": "{colors.error.500}",
-        "type": "color"
+      "error": {
+        "primary": {
+          "value": "{colors.error.600}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{colors.error.500}",
+          "type": "color"
+        }
       },
       "tertiary": {
-        "value": "{colors.grayLightMode.600}",
-        "type": "color"
-      },
-      "tertiaryHover": {
-        "value": "{colors.grayLightMode.700}",
-        "type": "color"
-      },
-      "brandPrimaryAlt": {
-        "value": "{colors.foreground.brandPrimary}",
-        "type": "color"
-      },
-      "brandSecondaryAlt": {
-        "value": "{colors.foreground.brandSecondary}",
-        "type": "color"
-      },
-      "brandSecondaryHover": {
-        "value": "{colors.brand.600}",
-        "type": "color"
+        "default": {
+          "value": "{colors.grayLightMode.600}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{colors.grayLightMode.700}",
+          "type": "color"
+        }
       }
     },
     "effects": {
