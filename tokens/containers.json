@@ -1,14 +1,16 @@
 {
-  "containerMaxWidthDesktop": {
-    "value": "{sizing.320}",
-    "type": "number"
-  },
-  "containerPaddingDesktop": {
-    "value": "{spacing.8}",
-    "type": "number"
-  },
-  "containerPaddingMobile": {
-    "value": "{spacing.4}",
-    "type": "number"
+  "container": {
+    "maxWidthDesktop": {
+      "value": "{sizing.320}",
+      "type": "number"
+    },
+    "paddingDesktop": {
+      "value": "{spacing.8}",
+      "type": "number"
+    },
+    "paddingMobile": {
+      "value": "{spacing.4}",
+      "type": "number"
+    }
   }
 }
