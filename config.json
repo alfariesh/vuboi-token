@@ -1,0 +1,94 @@
+{
+  "source": [
+    "tokens/primitives.json",
+    "tokens/typography.json",
+    "tokens/radius.json",
+    "tokens/widths.json",
+    "tokens/containers.json",
+    "tokens/spacing.json",
+    "tokens/modes/**/*.json"
+  ],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "variables.css",
+          "format": "css/variables",
+          "options": {
+            "outputReferences": true,
+            "prefix": "vuboi"
+          }
+        }
+      ]
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "build/scss/",
+      "files": [
+        {
+          "destination": "_variables.scss",
+          "format": "scss/variables",
+          "options": {
+            "outputReferences": true,
+            "prefix": "vuboi"
+          }
+        },
+        {
+          "destination": "_maps.scss",
+          "format": "scss/map-deep",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    },
+    "javascript": {
+      "transformGroup": "javascript",
+      "buildPath": "build/js/",
+      "files": [
+        {
+          "destination": "tokens.js",
+          "format": "javascript/module",
+          "options": {
+            "outputReferences": true
+          }
+        },
+        {
+          "destination": "tokens.mjs",
+          "format": "javascript/esm",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    },
+    "typescript": {
+      "transformGroup": "typescript",
+      "buildPath": "build/ts/",
+      "files": [
+        {
+          "destination": "tokens.ts",
+          "format": "typescript/es6-declarations",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    },
+    "json": {
+      "transformGroup": "js",
+      "buildPath": "build/json/",
+      "files": [
+        {
+          "destination": "tokens.json",
+          "format": "json",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    }
+  }
+}
