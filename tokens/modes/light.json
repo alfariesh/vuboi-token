@@ -355,8 +355,16 @@
     "effects": {
       "shadows": {
         "shadowXs": {
-          "value": "#0a0d120d",
-          "type": "color"
+          "value": {
+            "color": "#0a0d120d",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 1,
+            "blur": 2,
+            "spread": 0
+          },
+          "type": "boxShadow",
+          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
         },
         "shadowSm02": {
           "value": "#0a0d121a",
@@ -421,6 +429,154 @@
         "shadow3xl02": {
           "value": "#0a0d120a",
           "type": "color"
+        },
+        "shadowSm": {
+          "value": [
+            {
+              "color": "#0a0d121a",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 1,
+              "blur": 3,
+              "spread": 0
+            },
+            {
+              "color": "#0a0d121a",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 1,
+              "blur": 2,
+              "spread": -1
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+        },
+        "shadowMd": {
+          "value": [
+            {
+              "color": "#0a0d121a",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 4,
+              "blur": 6,
+              "spread": -1
+            },
+            {
+              "color": "#0a0d120f",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 2,
+              "blur": 4,
+              "spread": -2
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+        },
+        "shadowLg": {
+          "value": [
+            {
+              "color": "#0a0d1214",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 12,
+              "blur": 16,
+              "spread": -4
+            },
+            {
+              "color": "#0a0d1208",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 4,
+              "blur": 6,
+              "spread": -2
+            },
+            {
+              "color": "#0a0d120a",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 2,
+              "blur": 2,
+              "spread": -1
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+        },
+        "shadowXl": {
+          "value": [
+            {
+              "color": "#0a0d1214",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 20,
+              "blur": 24,
+              "spread": -4
+            },
+            {
+              "color": "#0a0d1208",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 8,
+              "blur": 8,
+              "spread": -4
+            },
+            {
+              "color": "#0a0d120a",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 3,
+              "blur": 3,
+              "spread": -1.5
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+        },
+        "shadow2xl": {
+          "value": [
+            {
+              "color": "#0a0d122e",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 24,
+              "blur": 48,
+              "spread": -12
+            },
+            {
+              "color": "#0a0d120a",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 4,
+              "blur": 4,
+              "spread": -2
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+        },
+        "shadow3xl": {
+          "value": [
+            {
+              "color": "#0a0d1224",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 32,
+              "blur": 64,
+              "spread": -12
+            },
+            {
+              "color": "#0a0d120a",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 5,
+              "blur": 5,
+              "spread": -2.5
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
         }
       },
       "portfolioMockups": {
@@ -443,12 +599,108 @@
       },
       "focusRings": {
         "focusRing": {
-          "value": "{colors.brand.500}",
-          "type": "color"
+          "value": [
+            {
+              "color": "#ffffff",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 2
+            },
+            {
+              "color": "#9e77ed",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 4
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Used for focus states in components. For example toggles and checkboxes."
         },
         "focusRingError": {
-          "value": "{colors.error.500}",
-          "type": "color"
+          "value": [
+            {
+              "color": "#ffffff",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 2
+            },
+            {
+              "color": "#f04438",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 4
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Used for destructive or error focus states in components. For example, destructive button links."
+        },
+        "focusRingShadowXs": {
+          "value": [
+            {
+              "color": "#0a0d120d",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 1,
+              "blur": 2,
+              "spread": 0
+            },
+            {
+              "color": "#ffffff",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 2
+            },
+            {
+              "color": "#9e77ed",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 4
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Used for focus states in components that also require a shadow. For example, buttons and tabs."
+        },
+        "focusRingErrorShadowXs": {
+          "value": [
+            {
+              "color": "#0a0d120d",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 1,
+              "blur": 2,
+              "spread": 0
+            },
+            {
+              "color": "#ffffff",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 2
+            },
+            {
+              "color": "#f04438",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 0,
+              "blur": 0,
+              "spread": 4
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Used for destructive or error focus states in components that also require a shadow. For example, destructive buttons."
         }
       }
     }
