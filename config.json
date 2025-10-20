@@ -89,6 +89,68 @@
           }
         }
       ]
+    },
+    "flutter": {
+      "transformGroup": "flutter",
+      "buildPath": "build/flutter/",
+      "files": [
+        {
+          "destination": "tokens.dart",
+          "format": "flutter/class.dart",
+          "options": {
+            "outputReferences": true,
+            "className": "VuboiTokens"
+          }
+        }
+      ]
+    },
+    "compose": {
+      "transformGroup": "compose",
+      "buildPath": "build/android/",
+      "files": [
+        {
+          "destination": "Theme.kt",
+          "format": "compose/object",
+          "options": {
+            "outputReferences": true,
+            "objectName": "VuboiTokens",
+            "package": "com.vuboi.tokens"
+          }
+        }
+      ]
+    },
+    "android": {
+      "transformGroup": "android",
+      "buildPath": "build/android/res/values/",
+      "files": [
+        {
+          "destination": "tokens_colors.xml",
+          "format": "android/colors",
+          "options": {
+            "outputReferences": true
+          }
+        },
+        {
+          "destination": "tokens_dimens.xml",
+          "format": "android/dimens",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    },
+    "ios": {
+      "transformGroup": "ios",
+      "buildPath": "build/ios/",
+      "files": [
+        {
+          "destination": "VuboiTokens.swift",
+          "format": "ios/macros",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
     }
   }
 }
