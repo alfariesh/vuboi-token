@@ -137,7 +137,7 @@ Prepare informasi untuk message formatting.
 ```
 
 ### 4. **Create WhatsApp Message**
-Format pesan WhatsApp dengan informasi lengkap.
+Format pesan WhatsApp dengan informasi lengkap termasuk commit message.
 
 **Output:**
 ```
@@ -147,8 +147,13 @@ Format pesan WhatsApp dengan informasi lengkap.
 
 *Repository:* alfariesh/vuboi-token
 *Branch:* main
-*Commit:* 43d74d9...
 *Author:* github-actions[bot]
+
+💬 *Commit Message:*
+Fix lineHeight structure in typography tokens
+
+- Restructured lineHeight from dot-notation flat keys to nested format
+- Enables Style Dictionary build to successfully complete
 
 📦 *Platforms Built:*
 • 🌐 Web (CSS, SCSS, JS, TS, JSON)

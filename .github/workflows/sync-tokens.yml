@@ -130,6 +130,11 @@ jobs:
       - name: "📢 Send Build Notification"
         if: always()
         run: |
+          COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
+          if [ -z "$COMMIT_MESSAGE" ]; then
+            COMMIT_MESSAGE="🎨 Tokens synced and built successfully"
+          fi
+
           curl -X POST \
             -H "Content-Type: application/json" \
             -d '{
@@ -137,7 +142,7 @@ jobs:
                 "conclusion": "${{ job.status }}",
                 "name": "Sync & Build Design Tokens",
                 "head_commit": {
-                  "message": "Token sync and build complete"
+                  "message": "'"$COMMIT_MESSAGE"'"
                 },
                 "head_branch": "${{ github.ref_name }}",
                 "html_url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}",

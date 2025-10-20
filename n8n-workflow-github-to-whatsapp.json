@@ -44,7 +44,7 @@
     {
       "parameters": {
         "mode": "expressionEditor",
-        "jsonOutput": "{\n  \"message\": `🎨 *Vuboi Design Token Build*\\n\\n${$json.status_emoji} *Status:* ${$json.status === 'success' ? 'SUCCESS ✅' : 'FAILED ❌'}\\n\\n*Repository:* ${$json.repository}\\n*Branch:* ${$json.branch}\\n*Commit:* ${$json.head_commit.substring(0, 40)}...\\n*Author:* ${$json.actor}\\n\\n📦 *Platforms Built:*\\n• 🌐 Web (CSS, SCSS, JS, TS, JSON)\\n• 📱 Mobile (Flutter, Compose)\\n• 🤖 Android (XML)\\n• 🍎 iOS (Swift)\\n\\n🔗 *Link:* ${$json.url}\\n⏱️ *Time:* ${new Date($json.timestamp).toLocaleString()}`,\n  \"status\": $json.status\n}"
+        "jsonOutput": "{\n  \"message\": `🎨 *Vuboi Design Token Build*\\n\\n${$json.status_emoji} *Status:* ${$json.status === 'success' ? 'SUCCESS ✅' : 'FAILED ❌'}\\n\\n*Repository:* ${$json.repository}\\n*Branch:* ${$json.branch}\\n*Author:* ${$json.actor}\\n\\n💬 *Commit Message:*\\n${$json.head_commit}\\n\\n📦 *Platforms Built:*\\n• 🌐 Web (CSS, SCSS, JS, TS, JSON)\\n• 📱 Mobile (Flutter, Compose)\\n• 🤖 Android (XML)\\n• 🍎 iOS (Swift)\\n\\n🔗 *Link:* ${$json.url}\\n⏱️ *Time:* ${new Date($json.timestamp).toLocaleString()}`,\n  \"status\": $json.status\n}"
       },
       "id": "create-message",
       "name": "Create WhatsApp Message",
