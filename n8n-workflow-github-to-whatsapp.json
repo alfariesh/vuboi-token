@@ -1,0 +1,147 @@
+{
+  "name": "Vuboi Token - GitHub Build to WhatsApp",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "vuboi-token-build",
+        "authentication": "headerAuth",
+        "options": {}
+      },
+      "id": "webhook-trigger",
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300],
+      "webhookId": "{{ $env.VUBOI_WEBHOOK_ID }}",
+      "webhookUrl": "https://your-n8n-instance.com/webhook/vuboi-token-build"
+    },
+    {
+      "parameters": {
+        "mode": "expressionEditor",
+        "jsonOutput": "{\n  \"status\": $json.workflow_run.conclusion,\n  \"name\": $json.workflow_run.name,\n  \"head_commit\": $json.workflow_run.head_commit.message,\n  \"branch\": $json.workflow_run.head_branch,\n  \"url\": $json.workflow_run.html_url,\n  \"timestamp\": $json.workflow_run.updated_at,\n  \"repository\": $json.repository.name,\n  \"actor\": $json.sender.login\n}"
+      },
+      "id": "extract-github-data",
+      "name": "Extract GitHub Data",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [450, 300],
+      "credentials": {},
+      "continueOnFail": false
+    },
+    {
+      "parameters": {
+        "mode": "expressionEditor",
+        "jsonOutput": "{\n  \"success\": $json.status === 'success',\n  \"failed\": $json.status === 'failure',\n  \"status_emoji\": $json.status === 'success' ? '✅' : $json.status === 'failure' ? '❌' : '⏳',\n  \"platforms\": [\n    { \"name\": \"Web\", \"items\": [\"CSS\", \"SCSS\", \"JavaScript\", \"TypeScript\", \"JSON\"] },\n    { \"name\": \"Mobile\", \"items\": [\"Flutter\", \"Compose\"] },\n    { \"name\": \"Android\", \"items\": [\"XML Resources\"] },\n    { \"name\": \"iOS\", \"items\": [\"Swift\"] }\n  ]\n}"
+      },
+      "id": "format-build-info",
+      "name": "Format Build Info",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [650, 300],
+      "credentials": {},
+      "continueOnFail": false
+    },
+    {
+      "parameters": {
+        "mode": "expressionEditor",
+        "jsonOutput": "{\n  \"message\": `🎨 *Vuboi Design Token Build*\\n\\n${$json.status_emoji} *Status:* ${$json.status === 'success' ? 'SUCCESS ✅' : 'FAILED ❌'}\\n\\n*Repository:* ${$json.repository}\\n*Branch:* ${$json.branch}\\n*Commit:* ${$json.head_commit.substring(0, 40)}...\\n*Author:* ${$json.actor}\\n\\n📦 *Platforms Built:*\\n• 🌐 Web (CSS, SCSS, JS, TS, JSON)\\n• 📱 Mobile (Flutter, Compose)\\n• 🤖 Android (XML)\\n• 🍎 iOS (Swift)\\n\\n🔗 *Link:* ${$json.url}\\n⏱️ *Time:* ${new Date($json.timestamp).toLocaleString()}`,\n  \"status\": $json.status\n}"
+      },
+      "id": "create-message",
+      "name": "Create WhatsApp Message",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [850, 300],
+      "credentials": {},
+      "continueOnFail": false
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "{{ $env.WHATSAPP_API_URL }}/send",
+        "authentication": "headerAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer {{ $env.WHATSAPP_API_KEY }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "bodyParametersUi": "json",
+        "body": "{\n  \"to\": \"{{ $env.WHATSAPP_TARGET_NUMBER }}\",\n  \"body\": $json.message,\n  \"type\": \"text\"\n}",
+        "options": {}
+      },
+      "id": "send-whatsapp",
+      "name": "Send WhatsApp Message",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [1050, 300],
+      "credentials": {},
+      "continueOnFail": true
+    },
+    {
+      "parameters": {
+        "mode": "expressionEditor",
+        "jsonOutput": "{\n  \"timestamp\": new Date().toISOString(),\n  \"repository\": $json.repository,\n  \"status\": $json.status,\n  \"branch\": $json.branch,\n  \"commit\": $json.head_commit,\n  \"whatsapp_sent\": $input.first().statusCode === 200\n}"
+      },
+      "id": "log-result",
+      "name": "Log Result",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [1250, 300],
+      "credentials": {},
+      "continueOnFail": false
+    },
+    {
+      "parameters": {
+        "mode": "expressionEditor",
+        "jsonOutput": "{\n  \"success\": true,\n  \"message\": \"Build notification sent to WhatsApp\",\n  \"details\": $json\n}"
+      },
+      "id": "response-success",
+      "name": "Response",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [1450, 300],
+      "credentials": {},
+      "continueOnFail": false
+    }
+  ],
+  "connections": {
+    "webhook-trigger": {
+      "main": [[{ "node": "extract-github-data", "type": "main", "index": 0 }]]
+    },
+    "extract-github-data": {
+      "main": [[{ "node": "format-build-info", "type": "main", "index": 0 }]]
+    },
+    "format-build-info": {
+      "main": [[{ "node": "create-message", "type": "main", "index": 0 }]]
+    },
+    "create-message": {
+      "main": [[{ "node": "send-whatsapp", "type": "main", "index": 0 }]]
+    },
+    "send-whatsapp": {
+      "main": [[{ "node": "log-result", "type": "main", "index": 0 }]]
+    },
+    "log-result": {
+      "main": [[{ "node": "response-success", "type": "main", "index": 0 }]]
+    }
+  },
+  "active": true,
+  "settings": {
+    "errorHandler": {
+      "type": "activeWorkflow",
+      "workflow": "error-handler"
+    }
+  },
+  "variables": {
+    "VUBOI_WEBHOOK_ID": "{{ $env.VUBOI_WEBHOOK_ID }}",
+    "WHATSAPP_API_URL": "{{ $env.WHATSAPP_API_URL }}",
+    "WHATSAPP_API_KEY": "{{ $env.WHATSAPP_API_KEY }}",
+    "WHATSAPP_TARGET_NUMBER": "{{ $env.WHATSAPP_TARGET_NUMBER }}"
+  }
+}

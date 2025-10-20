@@ -126,7 +126,34 @@ jobs:
         run: |
           git push origin main
 
-      # 11. Summary
+      # 11. Send Notification to n8n/WhatsApp
+      - name: "📢 Send Build Notification"
+        if: always()
+        run: |
+          curl -X POST \
+            -H "Content-Type: application/json" \
+            -d '{
+              "workflow_run": {
+                "conclusion": "${{ job.status }}",
+                "name": "Sync & Build Design Tokens",
+                "head_commit": {
+                  "message": "Token sync and build complete"
+                },
+                "head_branch": "${{ github.ref_name }}",
+                "html_url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}",
+                "updated_at": "'$(date -u +'%Y-%m-%dT%H:%M:%SZ')'"
+              },
+              "repository": {
+                "name": "${{ github.repository }}"
+              },
+              "sender": {
+                "login": "${{ github.actor }}"
+              }
+            }' \
+            ${{ secrets.N8N_WEBHOOK_URL }} || echo "n8n notification failed (non-blocking)"
+        continue-on-error: true
+
+      # 12. Summary
       - name: "📊 Workflow Summary"
         if: always()
         run: |
