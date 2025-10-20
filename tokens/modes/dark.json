@@ -230,15 +230,15 @@
         "type": "color"
       },
       "bgPrimaryAlt": {
-        "value": "{colors.background.bg-secondary}",
+        "value": "{colors.background.bgSecondary}",
         "type": "color"
       },
       "bgBrandPrimaryAlt": {
-        "value": "{colors.background.bg-secondary}",
+        "value": "{colors.background.bgSecondary}",
         "type": "color"
       },
       "bgSecondaryAlt": {
-        "value": "{colors.background.bg-primary}",
+        "value": "{colors.background.bgPrimary}",
         "type": "color"
       },
       "bgOverlay": {
@@ -250,15 +250,15 @@
         "type": "color"
       },
       "bgBrandSection": {
-        "value": "{colors.background.bg-secondary}",
+        "value": "{colors.background.bgSecondary}",
         "type": "color"
       },
       "bgBrandSectionSubtle": {
-        "value": "{colors.background.bg-primary}",
+        "value": "{colors.background.bgPrimary}",
         "type": "color"
       },
       "bgPrimarySolid": {
-        "value": "{colors.background.bg-secondary}",
+        "value": "{colors.background.bgSecondary}",
         "type": "color"
       },
       "bgErrorSolidHover": {
@@ -751,35 +751,35 @@
       },
       "blue dark": {
         "utilityBlueDark600": {
-          "value": "{colors.blue dark.400}",
+          "value": "{colors.blueDark.400}",
           "type": "color"
         },
         "utilityBlueDark700": {
-          "value": "{colors.blue dark.300}",
+          "value": "{colors.blueDark.300}",
           "type": "color"
         },
         "utilityBlueDark500": {
-          "value": "{colors.blue dark.500}",
+          "value": "{colors.blueDark.500}",
           "type": "color"
         },
         "utilityBlueDark200": {
-          "value": "{colors.blue dark.800}",
+          "value": "{colors.blueDark.800}",
           "type": "color"
         },
         "utilityBlueDark50": {
-          "value": "{colors.blue dark.950}",
+          "value": "{colors.blueDark.950}",
           "type": "color"
         },
         "utilityBlueDark100": {
-          "value": "{colors.blue dark.900}",
+          "value": "{colors.blueDark.900}",
           "type": "color"
         },
         "utilityBlueDark400": {
-          "value": "{colors.blue dark.600}",
+          "value": "{colors.blueDark.600}",
           "type": "color"
         },
         "utilityBlueDark300": {
-          "value": "{colors.blue dark.700}",
+          "value": "{colors.blueDark.700}",
           "type": "color"
         }
       },
@@ -921,103 +921,103 @@
       },
       "orange dark": {
         "utilityOrangeDark600": {
-          "value": "{colors.orange dark.400}",
+          "value": "{colors.orangeDark.400}",
           "type": "color"
         },
         "utilityOrangeDark700": {
-          "value": "{colors.orange dark.300}",
+          "value": "{colors.orangeDark.300}",
           "type": "color"
         },
         "utilityOrangeDark500": {
-          "value": "{colors.orange dark.500}",
+          "value": "{colors.orangeDark.500}",
           "type": "color"
         },
         "utilityOrangeDark200": {
-          "value": "{colors.orange dark.800}",
+          "value": "{colors.orangeDark.800}",
           "type": "color"
         },
         "utilityOrangeDark50": {
-          "value": "{colors.orange dark.950}",
+          "value": "{colors.orangeDark.950}",
           "type": "color"
         },
         "utilityOrangeDark100": {
-          "value": "{colors.orange dark.900}",
+          "value": "{colors.orangeDark.900}",
           "type": "color"
         },
         "utilityOrangeDark400": {
-          "value": "{colors.orange dark.600}",
+          "value": "{colors.orangeDark.600}",
           "type": "color"
         },
         "utilityOrangeDark300": {
-          "value": "{colors.orange dark.700}",
+          "value": "{colors.orangeDark.700}",
           "type": "color"
         }
       },
       "blue light": {
         "utilityBlueLight600": {
-          "value": "{colors.blue light.400}",
+          "value": "{colors.blueLight.400}",
           "type": "color"
         },
         "utilityBlueLight700": {
-          "value": "{colors.blue light.300}",
+          "value": "{colors.blueLight.300}",
           "type": "color"
         },
         "utilityBlueLight500": {
-          "value": "{colors.blue light.500}",
+          "value": "{colors.blueLight.500}",
           "type": "color"
         },
         "utilityBlueLight200": {
-          "value": "{colors.blue light.800}",
+          "value": "{colors.blueLight.800}",
           "type": "color"
         },
         "utilityBlueLight50": {
-          "value": "{colors.blue light.950}",
+          "value": "{colors.blueLight.950}",
           "type": "color"
         },
         "utilityBlueLight100": {
-          "value": "{colors.blue light.900}",
+          "value": "{colors.blueLight.900}",
           "type": "color"
         },
         "utilityBlueLight400": {
-          "value": "{colors.blue light.600}",
+          "value": "{colors.blueLight.600}",
           "type": "color"
         },
         "utilityBlueLight300": {
-          "value": "{colors.blue light.700}",
+          "value": "{colors.blueLight.700}",
           "type": "color"
         }
       },
       "gray blue": {
         "utilityGrayBlue600": {
-          "value": "{colors.gray blue.400}",
+          "value": "{colors.grayBlue.400}",
           "type": "color"
         },
         "utilityGrayBlue700": {
-          "value": "{colors.gray blue.300}",
+          "value": "{colors.grayBlue.300}",
           "type": "color"
         },
         "utilityGrayBlue500": {
-          "value": "{colors.gray blue.500}",
+          "value": "{colors.grayBlue.500}",
           "type": "color"
         },
         "utilityGrayBlue200": {
-          "value": "{colors.gray blue.800}",
+          "value": "{colors.grayBlue.800}",
           "type": "color"
         },
         "utilityGrayBlue50": {
-          "value": "{colors.gray blue.950}",
+          "value": "{colors.grayBlue.950}",
           "type": "color"
         },
         "utilityGrayBlue100": {
-          "value": "{colors.gray blue.900}",
+          "value": "{colors.grayBlue.900}",
           "type": "color"
         },
         "utilityGrayBlue400": {
-          "value": "{colors.gray blue.600}",
+          "value": "{colors.grayBlue.600}",
           "type": "color"
         },
         "utilityGrayBlue300": {
-          "value": "{colors.gray blue.700}",
+          "value": "{colors.grayBlue.700}",
           "type": "color"
         }
       },
@@ -1143,11 +1143,11 @@
       },
       "sliders": {
         "sliderHandleBorder": {
-          "value": "{colors.background.bg-primary}",
+          "value": "{colors.background.bgPrimary}",
           "type": "color"
         },
         "sliderHandleBg": {
-          "value": "{colors.foreground.fg-brand-primary (600)}",
+          "value": "{colors.foreground.fgBrandPrimary}",
           "type": "color"
         }
       },

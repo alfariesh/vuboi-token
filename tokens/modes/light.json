@@ -340,11 +340,11 @@
         "type": "color"
       },
       "fgBrandPrimaryAlt": {
-        "value": "{colors.foreground.fg-brand-primary (600)}",
+        "value": "{colors.foreground.fgBrandPrimary}",
         "type": "color"
       },
       "fgBrandSecondaryAlt": {
-        "value": "{colors.foreground.fg-brand-secondary (500)}",
+        "value": "{colors.foreground.fgBrandSecondary}",
         "type": "color"
       },
       "fgBrandSecondaryHover": {
@@ -751,35 +751,35 @@
       },
       "blue dark": {
         "utilityBlueDark600": {
-          "value": "{colors.blue dark.600}",
+          "value": "{colors.blueDark.600}",
           "type": "color"
         },
         "utilityBlueDark700": {
-          "value": "{colors.blue dark.700}",
+          "value": "{colors.blueDark.700}",
           "type": "color"
         },
         "utilityBlueDark500": {
-          "value": "{colors.blue dark.500}",
+          "value": "{colors.blueDark.500}",
           "type": "color"
         },
         "utilityBlueDark200": {
-          "value": "{colors.blue dark.200}",
+          "value": "{colors.blueDark.200}",
           "type": "color"
         },
         "utilityBlueDark50": {
-          "value": "{colors.blue dark.50}",
+          "value": "{colors.blueDark.50}",
           "type": "color"
         },
         "utilityBlueDark100": {
-          "value": "{colors.blue dark.100}",
+          "value": "{colors.blueDark.100}",
           "type": "color"
         },
         "utilityBlueDark400": {
-          "value": "{colors.blue dark.400}",
+          "value": "{colors.blueDark.400}",
           "type": "color"
         },
         "utilityBlueDark300": {
-          "value": "{colors.blue dark.300}",
+          "value": "{colors.blueDark.300}",
           "type": "color"
         }
       },
@@ -921,103 +921,103 @@
       },
       "orange dark": {
         "utilityOrangeDark600": {
-          "value": "{colors.orange dark.600}",
+          "value": "{colors.orangeDark.600}",
           "type": "color"
         },
         "utilityOrangeDark700": {
-          "value": "{colors.orange dark.700}",
+          "value": "{colors.orangeDark.700}",
           "type": "color"
         },
         "utilityOrangeDark500": {
-          "value": "{colors.orange dark.500}",
+          "value": "{colors.orangeDark.500}",
           "type": "color"
         },
         "utilityOrangeDark200": {
-          "value": "{colors.orange dark.200}",
+          "value": "{colors.orangeDark.200}",
           "type": "color"
         },
         "utilityOrangeDark50": {
-          "value": "{colors.orange dark.50}",
+          "value": "{colors.orangeDark.50}",
           "type": "color"
         },
         "utilityOrangeDark100": {
-          "value": "{colors.orange dark.100}",
+          "value": "{colors.orangeDark.100}",
           "type": "color"
         },
         "utilityOrangeDark400": {
-          "value": "{colors.orange dark.400}",
+          "value": "{colors.orangeDark.400}",
           "type": "color"
         },
         "utilityOrangeDark300": {
-          "value": "{colors.orange dark.300}",
+          "value": "{colors.orangeDark.300}",
           "type": "color"
         }
       },
       "blue light": {
         "utilityBlueLight600": {
-          "value": "{colors.blue light.600}",
+          "value": "{colors.blueLight.600}",
           "type": "color"
         },
         "utilityBlueLight700": {
-          "value": "{colors.blue light.700}",
+          "value": "{colors.blueLight.700}",
           "type": "color"
         },
         "utilityBlueLight500": {
-          "value": "{colors.blue light.500}",
+          "value": "{colors.blueLight.500}",
           "type": "color"
         },
         "utilityBlueLight200": {
-          "value": "{colors.blue light.200}",
+          "value": "{colors.blueLight.200}",
           "type": "color"
         },
         "utilityBlueLight50": {
-          "value": "{colors.blue light.50}",
+          "value": "{colors.blueLight.50}",
           "type": "color"
         },
         "utilityBlueLight100": {
-          "value": "{colors.blue light.100}",
+          "value": "{colors.blueLight.100}",
           "type": "color"
         },
         "utilityBlueLight400": {
-          "value": "{colors.blue light.400}",
+          "value": "{colors.blueLight.400}",
           "type": "color"
         },
         "utilityBlueLight300": {
-          "value": "{colors.blue light.300}",
+          "value": "{colors.blueLight.300}",
           "type": "color"
         }
       },
       "gray blue": {
         "utilityGrayBlue600": {
-          "value": "{colors.gray blue.600}",
+          "value": "{colors.grayBlue.600}",
           "type": "color"
         },
         "utilityGrayBlue700": {
-          "value": "{colors.gray blue.700}",
+          "value": "{colors.grayBlue.700}",
           "type": "color"
         },
         "utilityGrayBlue500": {
-          "value": "{colors.gray blue.500}",
+          "value": "{colors.grayBlue.500}",
           "type": "color"
         },
         "utilityGrayBlue200": {
-          "value": "{colors.gray blue.200}",
+          "value": "{colors.grayBlue.200}",
           "type": "color"
         },
         "utilityGrayBlue50": {
-          "value": "{colors.gray blue.50}",
+          "value": "{colors.grayBlue.50}",
           "type": "color"
         },
         "utilityGrayBlue100": {
-          "value": "{colors.gray blue.100}",
+          "value": "{colors.grayBlue.100}",
           "type": "color"
         },
         "utilityGrayBlue400": {
-          "value": "{colors.gray blue.400}",
+          "value": "{colors.grayBlue.400}",
           "type": "color"
         },
         "utilityGrayBlue300": {
-          "value": "{colors.gray blue.300}",
+          "value": "{colors.grayBlue.300}",
           "type": "color"
         }
       },
@@ -1183,11 +1183,11 @@
           "type": "color"
         },
         "toggleSlimBorderPressed": {
-          "value": "{colors.background.bg-brand-solid}",
+          "value": "{colors.background.bgBrandSolid}",
           "type": "color"
         },
         "toggleSlimBorderPressedHover": {
-          "value": "{colors.background.bg-brand-solid_hover}",
+          "value": "{colors.background.bgBrandSolid_hover}",
           "type": "color"
         }
       },
