@@ -362,11 +362,11 @@
         "type": "color"
       },
       "brandPrimaryAlt": {
-        "value": "{colors.foreground.brandPrimary600}",
+        "value": "{colors.foreground.brandPrimary}",
         "type": "color"
       },
       "brandSecondaryAlt": {
-        "value": "{colors.foreground.brandSecondary500}",
+        "value": "{colors.foreground.brandSecondary}",
         "type": "color"
       },
       "brandSecondaryHover": {
@@ -1566,11 +1566,11 @@
           "type": "color"
         },
         "toggleSlimBorderPressed": {
-          "value": "{colors.background.bgBrandSolid}",
+          "value": "{colors.background.brand.solid}",
           "type": "color"
         },
         "toggleSlimBorderPressedHover": {
-          "value": "{colors.background.bgBrandSolidHover}",
+          "value": "{colors.background.brand.solidHover}",
           "type": "color"
         }
       },
