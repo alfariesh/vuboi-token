@@ -14,7 +14,7 @@
         "type": "color"
       }
     },
-    "gray-light-mode": {
+    "grayLightMode": {
       "25": {
         "value": "#fdfdfd",
         "type": "color"
@@ -64,7 +64,7 @@
         "type": "color"
       }
     },
-    "gray-blue": {
+    "grayBlue": {
       "25": {
         "value": "#fcfcfd",
         "type": "color"
@@ -114,7 +114,7 @@
         "type": "color"
       }
     },
-    "gray-cool": {
+    "grayCool": {
       "25": {
         "value": "#fcfcfd",
         "type": "color"
@@ -164,7 +164,7 @@
         "type": "color"
       }
     },
-    "gray-modern": {
+    "grayModern": {
       "25": {
         "value": "#fcfcfd",
         "type": "color"
@@ -214,7 +214,7 @@
         "type": "color"
       }
     },
-    "gray-neutral": {
+    "grayNeutral": {
       "25": {
         "value": "#fcfcfd",
         "type": "color"
@@ -514,7 +514,7 @@
         "type": "color"
       }
     },
-    "gray-iron": {
+    "grayIron": {
       "25": {
         "value": "#fcfcfc",
         "type": "color"
@@ -564,7 +564,7 @@
         "type": "color"
       }
     },
-    "gray-true": {
+    "grayTrue": {
       "25": {
         "value": "#fcfcfc",
         "type": "color"
@@ -614,7 +614,7 @@
         "type": "color"
       }
     },
-    "gray-warm": {
+    "grayWarm": {
       "25": {
         "value": "#fdfdfc",
         "type": "color"
@@ -714,7 +714,7 @@
         "type": "color"
       }
     },
-    "green-light": {
+    "greenLight": {
       "25": {
         "value": "#fafef5",
         "type": "color"
@@ -864,7 +864,7 @@
         "type": "color"
       }
     },
-    "blue-light": {
+    "blueLight": {
       "25": {
         "value": "#f5fbff",
         "type": "color"
@@ -964,7 +964,7 @@
         "type": "color"
       }
     },
-    "blue-dark": {
+    "blueDark": {
       "25": {
         "value": "#f5f8ff",
         "type": "color"
@@ -1314,7 +1314,7 @@
         "type": "color"
       }
     },
-    "orange-dark": {
+    "orangeDark": {
       "25": {
         "value": "#fff9f5",
         "type": "color"
@@ -1464,7 +1464,7 @@
         "type": "color"
       }
     },
-    "gray-dark-mode-alpha": {
+    "grayDarkModeAlpha": {
       "25": {
         "value": "#fffffffa",
         "type": "color"
@@ -1514,7 +1514,7 @@
         "type": "color"
       }
     },
-    "gray-dark-mode": {
+    "grayDarkMode": {
       "25": {
         "value": "#fafafa",
         "type": "color"
