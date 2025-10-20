@@ -340,11 +340,11 @@
         "type": "color"
       },
       "brandPrimaryAlt": {
-        "value": "{colors.foreground.fgBrandPrimary600}",
+        "value": "{colors.foreground.brandPrimary600}",
         "type": "color"
       },
       "brandSecondaryAlt": {
-        "value": "{colors.foreground.fgBrandSecondary500}",
+        "value": "{colors.foreground.BrandSecondary500}",
         "type": "color"
       },
       "brandSecondaryHover": {
