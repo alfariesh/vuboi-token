@@ -230,15 +230,15 @@
         "type": "color"
       },
       "primaryAlt": {
-        "value": "{colors.background.bgSecondary}",
+        "value": "{colors.background.secondary}",
         "type": "color"
       },
       "brandPrimaryAlt": {
-        "value": "{colors.background.bgSecondary}",
+        "value": "{colors.background.secondary}",
         "type": "color"
       },
       "secondaryAlt": {
-        "value": "{colors.background.bgPrimary}",
+        "value": "{colors.background.primary}",
         "type": "color"
       },
       "overlay": {
@@ -250,15 +250,15 @@
         "type": "color"
       },
       "brandSection": {
-        "value": "{colors.background.bgSecondary}",
+        "value": "{colors.background.secondary}",
         "type": "color"
       },
       "brandSectionSubtle": {
-        "value": "{colors.background.bgPrimary}",
+        "value": "{colors.background.primary}",
         "type": "color"
       },
       "primarySolid": {
-        "value": "{colors.background.bgSecondary}",
+        "value": "{colors.background.secondary}",
         "type": "color"
       },
       "errorSolidHover": {
@@ -1504,7 +1504,7 @@
       },
       "sliders": {
         "sliderHandleBorder": {
-          "value": "{colors.background.bgPrimary}",
+          "value": "{colors.background.primary}",
           "type": "color"
         },
         "sliderHandleBg": {
