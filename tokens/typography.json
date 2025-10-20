@@ -128,49 +128,53 @@
     }
   },
   "lineHeight": {
-    "text.xs": {
-      "value": "18",
-      "type": "lineHeights"
+    "text": {
+      "xs": {
+        "value": "18",
+        "type": "lineHeights"
+      },
+      "sm": {
+        "value": "20",
+        "type": "lineHeights"
+      },
+      "md": {
+        "value": "24",
+        "type": "lineHeights"
+      },
+      "lg": {
+        "value": "28",
+        "type": "lineHeights"
+      },
+      "xl": {
+        "value": "30",
+        "type": "lineHeights"
+      }
     },
-    "text.sm": {
-      "value": "20",
-      "type": "lineHeights"
-    },
-    "text.md": {
-      "value": "24",
-      "type": "lineHeights"
-    },
-    "text.lg": {
-      "value": "28",
-      "type": "lineHeights"
-    },
-    "text.xl": {
-      "value": "30",
-      "type": "lineHeights"
-    },
-    "display.xs": {
-      "value": "32",
-      "type": "lineHeights"
-    },
-    "display.sm": {
-      "value": "38",
-      "type": "lineHeights"
-    },
-    "display.md": {
-      "value": "44",
-      "type": "lineHeights"
-    },
-    "display.lg": {
-      "value": "60",
-      "type": "lineHeights"
-    },
-    "display.xl": {
-      "value": "72",
-      "type": "lineHeights"
-    },
-    "display.2xl": {
-      "value": "90",
-      "type": "lineHeights"
+    "display": {
+      "xs": {
+        "value": "32",
+        "type": "lineHeights"
+      },
+      "sm": {
+        "value": "38",
+        "type": "lineHeights"
+      },
+      "md": {
+        "value": "44",
+        "type": "lineHeights"
+      },
+      "lg": {
+        "value": "60",
+        "type": "lineHeights"
+      },
+      "xl": {
+        "value": "72",
+        "type": "lineHeights"
+      },
+      "2xl": {
+        "value": "90",
+        "type": "lineHeights"
+      }
     }
   },
   "typography": {
