@@ -1,23 +1,23 @@
 {
   "colors": {
     "text": {
-      "primary900": {
+      "primary": {
         "value": "{colors.grayLightMode.900}",
         "type": "color"
       },
-      "tertiary600": {
+      "tertiary": {
         "value": "{colors.grayLightMode.600}",
         "type": "color"
       },
-      "errorPrimary600": {
+      "errorPrimary": {
         "value": "{colors.error.600}",
         "type": "color"
       },
-      "warningPrimary600": {
+      "warningPrimary": {
         "value": "{colors.warning.600}",
         "type": "color"
       },
-      "successPrimary600": {
+      "successPrimary": {
         "value": "{colors.success.600}",
         "type": "color"
       },
@@ -25,7 +25,7 @@
         "value": "{colors.base.white}",
         "type": "color"
       },
-      "secondary700": {
+      "secondary": {
         "value": "{colors.grayLightMode.700}",
         "type": "color"
       },
@@ -41,7 +41,7 @@
         "value": "{colors.grayLightMode.700}",
         "type": "color"
       },
-      "brandSecondary700": {
+      "brandSecondary": {
         "value": "{colors.brand.700}",
         "type": "color"
       },
@@ -53,15 +53,15 @@
         "value": "{colors.grayLightMode.300}",
         "type": "color"
       },
-      "brandTertiary600": {
+      "brandTertiary": {
         "value": "{colors.brand.600}",
         "type": "color"
       },
-      "quaternary500": {
+      "quaternary": {
         "value": "{colors.grayLightMode.500}",
         "type": "color"
       },
-      "brandPrimary900": {
+      "brandPrimary": {
         "value": "{colors.brand.900}",
         "type": "color"
       },
@@ -267,7 +267,7 @@
       }
     },
     "foreground": {
-      "secondary700": {
+      "secondary": {
         "value": "{colors.grayLightMode.700}",
         "type": "color"
       },
@@ -291,7 +291,7 @@
         "value": "{colors.grayLightMode.800}",
         "type": "color"
       },
-      "primary900": {
+      "primary": {
         "value": "{colors.grayLightMode.900}",
         "type": "color"
       },
@@ -299,15 +299,15 @@
         "value": "{colors.grayLightMode.400}",
         "type": "color"
       },
-      "brandSecondary500": {
+      "brandSecondary": {
         "value": "{colors.brand.500}",
         "type": "color"
       },
-      "brandPrimary600": {
+      "brandPrimary": {
         "value": "{colors.brand.600}",
         "type": "color"
       },
-      "quaternary400": {
+      "quaternary": {
         "value": "{colors.grayLightMode.400}",
         "type": "color"
       },
@@ -331,7 +331,7 @@
         "value": "{colors.error.500}",
         "type": "color"
       },
-      "tertiary600": {
+      "tertiary": {
         "value": "{colors.grayLightMode.600}",
         "type": "color"
       },
