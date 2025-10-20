@@ -1,353 +1,353 @@
 {
   "colors": {
     "text": {
-      "textPrimary900": {
+      "primary900": {
         "value": "{colors.grayDarkMode.50}",
         "type": "color"
       },
-      "textTertiary600": {
+      "tertiary600": {
         "value": "{colors.grayDarkMode.400}",
         "type": "color"
       },
-      "textErrorPrimary600": {
+      "errorPrimary600": {
         "value": "{colors.error.400}",
         "type": "color"
       },
-      "textWarningPrimary600": {
+      "warningPrimary600": {
         "value": "{colors.warning.400}",
         "type": "color"
       },
-      "textSuccessPrimary600": {
+      "successPrimary600": {
         "value": "{colors.success.400}",
         "type": "color"
       },
-      "textWhite": {
+      "white": {
         "value": "{colors.base.white}",
         "type": "color"
       },
-      "textSecondary700": {
+      "secondary700": {
         "value": "{colors.grayDarkMode.300}",
         "type": "color"
       },
-      "textDisabled": {
+      "disabled": {
         "value": "{colors.grayDarkMode.500}",
         "type": "color"
       },
-      "textSecondaryHover": {
+      "secondaryHover": {
         "value": "{colors.grayDarkMode.200}",
         "type": "color"
       },
-      "textTertiaryHover": {
+      "tertiaryHover": {
         "value": "{colors.grayDarkMode.300}",
         "type": "color"
       },
-      "textBrandSecondary700": {
+      "brandSecondary700": {
         "value": "{colors.grayDarkMode.300}",
         "type": "color"
       },
-      "textPlaceholder": {
+      "placeholder": {
         "value": "{colors.grayDarkMode.500}",
         "type": "color"
       },
-      "textPlaceholderSubtle": {
+      "placeholderSubtle": {
         "value": "{colors.grayDarkMode.700}",
         "type": "color"
       },
-      "textBrandTertiary600": {
+      "brandTertiary600": {
         "value": "{colors.grayDarkMode.400}",
         "type": "color"
       },
-      "textQuaternary500": {
+      "quaternary500": {
         "value": "{colors.grayDarkMode.400}",
         "type": "color"
       },
-      "textBrandPrimary900": {
+      "brandPrimary900": {
         "value": "{colors.grayDarkMode.50}",
         "type": "color"
       },
-      "textPrimaryOnBrand": {
+      "primaryOnBrand": {
         "value": "{colors.grayDarkMode.50}",
         "type": "color"
       },
-      "textSecondaryOnBrand": {
+      "secondaryOnBrand": {
         "value": "{colors.grayDarkMode.300}",
         "type": "color"
       },
-      "textTertiaryOnBrand": {
+      "tertiaryOnBrand": {
         "value": "{colors.grayDarkMode.400}",
         "type": "color"
       },
-      "textQuaternaryOnBrand": {
+      "quaternaryOnBrand": {
         "value": "{colors.grayDarkMode.400}",
         "type": "color"
       },
-      "textBrandTertiaryAlt": {
+      "brandTertiaryAlt": {
         "value": "{colors.grayDarkMode.50}",
         "type": "color"
       },
-      "textErrorPrimaryHover": {
+      "errorPrimaryHover": {
         "value": "{colors.error.300}",
         "type": "color"
       },
-      "textBrandSecondaryHover": {
+      "brandSecondaryHover": {
         "value": "{colors.grayDarkMode.200}",
         "type": "color"
       }
     },
     "border": {
-      "borderSecondary": {
+      "secondary": {
         "value": "{colors.grayDarkMode.800}",
         "type": "color"
       },
-      "borderErrorSubtle": {
+      "errorSubtle": {
         "value": "{colors.error.500}",
         "type": "color"
       },
-      "borderPrimary": {
+      "primary": {
         "value": "{colors.grayDarkMode.700}",
         "type": "color"
       },
-      "borderBrand": {
+      "brand": {
         "value": "{colors.brand.400}",
         "type": "color"
       },
-      "borderDisabled": {
+      "disabled": {
         "value": "{colors.grayDarkMode.700}",
         "type": "color"
       },
-      "borderError": {
+      "error": {
         "value": "{colors.error.400}",
         "type": "color"
       },
-      "borderDisabledSubtle": {
+      "disabledSubtle": {
         "value": "{colors.grayDarkMode.800}",
         "type": "color"
       },
-      "borderTertiary": {
+      "tertiary": {
         "value": "{colors.grayDarkMode.800}",
         "type": "color"
       },
-      "borderBrandAlt": {
+      "brandAlt": {
         "value": "{colors.grayDarkMode.700}",
         "type": "color"
       },
-      "borderSecondaryAlt": {
+      "secondaryAlt": {
         "value": "{colors.grayDarkMode.800}",
         "type": "color"
       }
     },
     "background": {
-      "bgPrimary": {
+      "primary": {
         "value": "{colors.grayDarkMode.950}",
         "type": "color"
       },
-      "bgTertiary": {
+      "tertiary": {
         "value": "{colors.grayDarkMode.800}",
         "type": "color"
       },
-      "bgBrandPrimary": {
+      "brandPrimary": {
         "value": "{colors.brand.500}",
         "type": "color"
       },
-      "bgErrorSecondary": {
+      "errorSecondary": {
         "value": "{colors.error.600}",
         "type": "color"
       },
-      "bgWarningPrimary": {
+      "warningPrimary": {
         "value": "{colors.warning.950}",
         "type": "color"
       },
-      "bgWarningSecondary": {
+      "warningSecondary": {
         "value": "{colors.warning.600}",
         "type": "color"
       },
-      "bgSuccessPrimary": {
+      "successPrimary": {
         "value": "{colors.success.950}",
         "type": "color"
       },
-      "bgSuccessSecondary": {
+      "successSecondary": {
         "value": "{colors.success.600}",
         "type": "color"
       },
-      "bgBrandSolid": {
+      "brandSolid": {
         "value": "{colors.brand.600}",
         "type": "color"
       },
-      "bgSecondarySolid": {
+      "secondarySolid": {
         "value": "{colors.grayDarkMode.600}",
         "type": "color"
       },
-      "bgErrorSolid": {
+      "errorSolid": {
         "value": "{colors.error.600}",
         "type": "color"
       },
-      "bgWarningSolid": {
+      "warningSolid": {
         "value": "{colors.warning.600}",
         "type": "color"
       },
-      "bgSuccessSolid": {
+      "successSolid": {
         "value": "{colors.success.600}",
         "type": "color"
       },
-      "bgSecondaryHover": {
+      "secondaryHover": {
         "value": "{colors.grayDarkMode.800}",
         "type": "color"
       },
-      "bgPrimaryHover": {
+      "primaryHover": {
         "value": "{colors.grayDarkMode.800}",
         "type": "color"
       },
-      "bgDisabled": {
+      "disabled": {
         "value": "{colors.grayDarkMode.800}",
         "type": "color"
       },
-      "bgActive": {
+      "active": {
         "value": "{colors.grayDarkMode.800}",
         "type": "color"
       },
-      "bgBrandSolidHover": {
+      "brandSolidHover": {
         "value": "{colors.brand.500}",
         "type": "color"
       },
-      "bgErrorPrimary": {
+      "errorPrimary": {
         "value": "{colors.error.950}",
         "type": "color"
       },
-      "bgBrandSecondary": {
+      "brandSecondary": {
         "value": "{colors.brand.600}",
         "type": "color"
       },
-      "bgSecondary": {
+      "secondary": {
         "value": "{colors.grayDarkMode.900}",
         "type": "color"
       },
-      "bgDisabledSubtle": {
+      "disabledSubtle": {
         "value": "{colors.grayDarkMode.900}",
         "type": "color"
       },
-      "bgQuaternary": {
+      "quaternary": {
         "value": "{colors.grayDarkMode.700}",
         "type": "color"
       },
-      "bgPrimaryAlt": {
+      "primaryAlt": {
         "value": "{colors.background.bgSecondary}",
         "type": "color"
       },
-      "bgBrandPrimaryAlt": {
+      "brandPrimaryAlt": {
         "value": "{colors.background.bgSecondary}",
         "type": "color"
       },
-      "bgSecondaryAlt": {
+      "secondaryAlt": {
         "value": "{colors.background.bgPrimary}",
         "type": "color"
       },
-      "bgOverlay": {
+      "overlay": {
         "value": "{colors.grayDarkMode.800}",
         "type": "color"
       },
-      "bgSecondarySubtle": {
+      "secondarySubtle": {
         "value": "{colors.grayDarkMode.900}",
         "type": "color"
       },
-      "bgBrandSection": {
+      "brandSection": {
         "value": "{colors.background.bgSecondary}",
         "type": "color"
       },
-      "bgBrandSectionSubtle": {
+      "brandSectionSubtle": {
         "value": "{colors.background.bgPrimary}",
         "type": "color"
       },
-      "bgPrimarySolid": {
+      "primarySolid": {
         "value": "{colors.background.bgSecondary}",
         "type": "color"
       },
-      "bgErrorSolidHover": {
+      "errorSolidHover": {
         "value": "{colors.error.500}",
         "type": "color"
       }
     },
     "foreground": {
-      "fgSecondary700": {
+      "secondary700": {
         "value": "{colors.grayDarkMode.300}",
         "type": "color"
       },
-      "fgWarningPrimary": {
+      "warningPrimary": {
         "value": "{colors.warning.500}",
         "type": "color"
       },
-      "fgSuccessPrimary": {
+      "successPrimary": {
         "value": "{colors.success.500}",
         "type": "color"
       },
-      "fgWhite": {
+      "white": {
         "value": "{colors.base.white}",
         "type": "color"
       },
-      "fgSuccessSecondary": {
+      "successSecondary": {
         "value": "{colors.success.400}",
         "type": "color"
       },
-      "fgSecondaryHover": {
+      "secondaryHover": {
         "value": "{colors.grayDarkMode.200}",
         "type": "color"
       },
-      "fgPrimary900": {
+      "primary900": {
         "value": "{colors.base.white}",
         "type": "color"
       },
-      "fgDisabled": {
+      "disabled": {
         "value": "{colors.grayDarkMode.500}",
         "type": "color"
       },
-      "fgBrandSecondary500": {
+      "brandSecondary500": {
         "value": "{colors.brand.500}",
         "type": "color"
       },
-      "fgBrandPrimary600": {
+      "brandPrimary600": {
         "value": "{colors.brand.500}",
         "type": "color"
       },
-      "fgQuaternary400": {
+      "quaternary400": {
         "value": "{colors.grayDarkMode.600}",
         "type": "color"
       },
-      "fgQuaternaryHover": {
+      "quaternaryHover": {
         "value": "{colors.grayDarkMode.500}",
         "type": "color"
       },
-      "fgErrorPrimary": {
+      "errorPrimary": {
         "value": "{colors.error.500}",
         "type": "color"
       },
-      "fgDisabledSubtle": {
+      "disabledSubtle": {
         "value": "{colors.grayDarkMode.600}",
         "type": "color"
       },
-      "fgWarningSecondary": {
+      "warningSecondary": {
         "value": "{colors.warning.400}",
         "type": "color"
       },
-      "fgErrorSecondary": {
+      "errorSecondary": {
         "value": "{colors.error.400}",
         "type": "color"
       },
-      "fgTertiary600": {
+      "tertiary600": {
         "value": "{colors.grayDarkMode.400}",
         "type": "color"
       },
-      "fgTertiaryHover": {
+      "tertiaryHover": {
         "value": "{colors.grayDarkMode.300}",
         "type": "color"
       },
-      "fgBrandPrimaryAlt": {
+      "brandPrimaryAlt": {
         "value": "{colors.grayDarkMode.300}",
         "type": "color"
       },
-      "fgBrandSecondaryAlt": {
+      "brandSecondaryAlt": {
         "value": "{colors.grayDarkMode.600}",
         "type": "color"
       },
-      "fgBrandSecondaryHover": {
+      "brandSecondaryHover": {
         "value": "{colors.grayDarkMode.500}",
         "type": "color"
       }
