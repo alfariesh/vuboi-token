@@ -757,7 +757,7 @@
       "type": "dimension"
     }
   },
-  "FontFamily": {
+  "fontFamily": {
     "display": {
       "value": "Bricolage Grotesque",
       "type": "fontFamilies"
@@ -767,7 +767,7 @@
       "type": "fontFamilies"
     }
   },
-  "FontWeight": {
+  "fontWeight": {
     "regular": {
       "value": "250",
       "type": "fontWeights"
@@ -785,7 +785,7 @@
       "type": "fontWeights"
     }
   },
-  "LineHeight": {
+  "lineHeight": {
     "textXs": {
       "value": "18",
       "type": "lineHeights"
