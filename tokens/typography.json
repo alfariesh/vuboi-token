@@ -101,7 +101,7 @@
       "type": "paragraphSpacing"
     }
   },
-  "Display2xl": {
+  "display2xl": {
     "Regular": {
       "value": {
         "fontFamily": "{fontFamily.display}",
@@ -159,7 +159,7 @@
       "type": "typography"
     }
   },
-  "DisplayXl": {
+  "displayXl": {
     "Regular": {
       "value": {
         "fontFamily": "{fontFamily.display}",
@@ -217,7 +217,7 @@
       "type": "typography"
     }
   },
-  "DisplayLg": {
+  "displayLg": {
     "Regular": {
       "value": {
         "fontFamily": "{fontFamily.display}",
@@ -275,7 +275,7 @@
       "type": "typography"
     }
   },
-  "DisplayMd": {
+  "displayMd": {
     "Regular": {
       "value": {
         "fontFamily": "{fontFamily.display}",
@@ -333,7 +333,7 @@
       "type": "typography"
     }
   },
-  "DisplaySm": {
+  "displaySm": {
     "Regular": {
       "value": {
         "fontFamily": "{fontFamily.display}",
@@ -391,7 +391,7 @@
       "type": "typography"
     }
   },
-  "DisplayXs": {
+  "displayXs": {
     "Regular": {
       "value": {
         "fontFamily": "{fontFamily.display}",
@@ -449,7 +449,7 @@
       "type": "typography"
     }
   },
-  "TextXl": {
+  "textXl": {
     "Regular": {
       "value": {
         "fontFamily": "{fontFamily.display}",
@@ -507,7 +507,7 @@
       "type": "typography"
     }
   },
-  "TextLg": {
+  "textLg": {
     "Regular": {
       "value": {
         "fontFamily": "{fontFamily.display}",
@@ -565,7 +565,7 @@
       "type": "typography"
     }
   },
-  "TextMd": {
+  "textMd": {
     "Regular": {
       "value": {
         "fontFamily": "{fontFamily.display}",
@@ -623,7 +623,7 @@
       "type": "typography"
     }
   },
-  "TextSm": {
+  "textSm": {
     "Regular": {
       "value": {
         "fontFamily": "{fontFamily.display}",
@@ -681,7 +681,7 @@
       "type": "typography"
     }
   },
-  "TextXs": {
+  "textXs": {
     "Regular": {
       "value": {
         "fontFamily": "{fontFamily.display}",
