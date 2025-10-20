@@ -1,16 +1,16 @@
 {
   "container": {
     "maxWidthDesktop": {
-      "value": "{sizing.320}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{sizing.320}"
     },
     "paddingDesktop": {
-      "value": "{spacing.8}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.8}"
     },
     "paddingMobile": {
-      "value": "{spacing.4}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.4}"
     }
   }
 }

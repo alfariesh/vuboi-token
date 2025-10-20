@@ -2,360 +2,361 @@
   "colors": {
     "text": {
       "primary900": {
-        "value": "{colors.grayDarkMode.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.50}"
       },
       "tertiary600": {
-        "value": "{colors.grayDarkMode.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.400}"
       },
       "errorPrimary600": {
-        "value": "{colors.error.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.error.400}"
       },
       "warningPrimary600": {
-        "value": "{colors.warning.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.warning.400}"
       },
       "successPrimary600": {
-        "value": "{colors.success.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.success.400}"
       },
       "white": {
-        "value": "{colors.base.white}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.base.white}"
       },
       "secondary700": {
-        "value": "{colors.grayDarkMode.300}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.300}"
       },
       "disabled": {
-        "value": "{colors.grayDarkMode.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.500}"
       },
       "secondaryHover": {
-        "value": "{colors.grayDarkMode.200}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.200}"
       },
       "tertiaryHover": {
-        "value": "{colors.grayDarkMode.300}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.300}"
       },
       "brandSecondary700": {
-        "value": "{colors.grayDarkMode.300}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.300}"
       },
       "placeholder": {
-        "value": "{colors.grayDarkMode.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.500}"
       },
       "placeholderSubtle": {
-        "value": "{colors.grayDarkMode.700}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.700}"
       },
       "brandTertiary600": {
-        "value": "{colors.grayDarkMode.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.400}"
       },
       "quaternary500": {
-        "value": "{colors.grayDarkMode.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.400}"
       },
       "brandPrimary900": {
-        "value": "{colors.grayDarkMode.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.50}"
       },
       "primaryOnBrand": {
-        "value": "{colors.grayDarkMode.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.50}"
       },
       "secondaryOnBrand": {
-        "value": "{colors.grayDarkMode.300}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.300}"
       },
       "tertiaryOnBrand": {
-        "value": "{colors.grayDarkMode.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.400}"
       },
       "quaternaryOnBrand": {
-        "value": "{colors.grayDarkMode.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.400}"
       },
       "brandTertiaryAlt": {
-        "value": "{colors.grayDarkMode.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.50}"
       },
       "errorPrimaryHover": {
-        "value": "{colors.error.300}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.error.300}"
       },
       "brandSecondaryHover": {
-        "value": "{colors.grayDarkMode.200}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.200}"
       }
     },
     "border": {
       "secondary": {
-        "value": "{colors.grayDarkMode.800}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.800}"
       },
       "errorSubtle": {
-        "value": "{colors.error.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.error.500}"
       },
       "primary": {
-        "value": "{colors.grayDarkMode.700}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.700}"
       },
       "brand": {
-        "value": "{colors.brand.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.brand.400}"
       },
       "disabled": {
-        "value": "{colors.grayDarkMode.700}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.700}"
       },
       "error": {
-        "value": "{colors.error.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.error.400}"
       },
       "disabledSubtle": {
-        "value": "{colors.grayDarkMode.800}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.800}"
       },
       "tertiary": {
-        "value": "{colors.grayDarkMode.800}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.800}"
       },
       "brandAlt": {
-        "value": "{colors.grayDarkMode.700}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.700}"
       },
       "secondaryAlt": {
-        "value": "{colors.grayDarkMode.800}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.800}"
       }
     },
     "background": {
       "primary": {
-        "value": "{colors.grayDarkMode.950}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.950}"
       },
       "tertiary": {
-        "value": "{colors.grayDarkMode.800}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.800}"
       },
       "brandPrimary": {
-        "value": "{colors.brand.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.brand.500}"
       },
       "errorSecondary": {
-        "value": "{colors.error.600}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.error.600}"
       },
       "warningPrimary": {
-        "value": "{colors.warning.950}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.warning.950}"
       },
       "warningSecondary": {
-        "value": "{colors.warning.600}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.warning.600}"
       },
       "successPrimary": {
-        "value": "{colors.success.950}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.success.950}"
       },
       "successSecondary": {
-        "value": "{colors.success.600}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.success.600}"
       },
       "brandSolid": {
-        "value": "{colors.brand.600}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.brand.600}"
       },
       "secondarySolid": {
-        "value": "{colors.grayDarkMode.600}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.600}"
       },
       "errorSolid": {
-        "value": "{colors.error.600}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.error.600}"
       },
       "warningSolid": {
-        "value": "{colors.warning.600}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.warning.600}"
       },
       "successSolid": {
-        "value": "{colors.success.600}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.success.600}"
       },
       "secondaryHover": {
-        "value": "{colors.grayDarkMode.800}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.800}"
       },
       "primaryHover": {
-        "value": "{colors.grayDarkMode.800}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.800}"
       },
       "disabled": {
-        "value": "{colors.grayDarkMode.800}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.800}"
       },
       "active": {
-        "value": "{colors.grayDarkMode.800}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.800}"
       },
       "brandSolidHover": {
-        "value": "{colors.brand.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.brand.500}"
       },
       "errorPrimary": {
-        "value": "{colors.error.950}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.error.950}"
       },
       "brandSecondary": {
-        "value": "{colors.brand.600}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.brand.600}"
       },
       "secondary": {
-        "value": "{colors.grayDarkMode.900}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.900}"
       },
       "disabledSubtle": {
-        "value": "{colors.grayDarkMode.900}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.900}"
       },
       "quaternary": {
-        "value": "{colors.grayDarkMode.700}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.700}"
       },
       "primaryAlt": {
-        "value": "{colors.background.secondary}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.background.secondary}"
       },
       "brandPrimaryAlt": {
-        "value": "{colors.background.secondary}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.background.secondary}"
       },
       "secondaryAlt": {
-        "value": "{colors.background.primary}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.background.primary}"
       },
       "overlay": {
-        "value": "{colors.grayDarkMode.800}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.800}"
       },
       "secondarySubtle": {
-        "value": "{colors.grayDarkMode.900}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.900}"
       },
       "brandSection": {
-        "value": "{colors.background.secondary}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.background.secondary}"
       },
       "brandSectionSubtle": {
-        "value": "{colors.background.primary}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.background.primary}"
       },
       "primarySolid": {
-        "value": "{colors.background.secondary}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.background.secondary}"
       },
       "errorSolidHover": {
-        "value": "{colors.error.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.error.500}"
       }
     },
     "foreground": {
       "secondary700": {
-        "value": "{colors.grayDarkMode.300}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.300}"
       },
       "warningPrimary": {
-        "value": "{colors.warning.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.warning.500}"
       },
       "successPrimary": {
-        "value": "{colors.success.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.success.500}"
       },
       "white": {
-        "value": "{colors.base.white}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.base.white}"
       },
       "successSecondary": {
-        "value": "{colors.success.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.success.400}"
       },
       "secondaryHover": {
-        "value": "{colors.grayDarkMode.200}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.200}"
       },
       "primary900": {
-        "value": "{colors.base.white}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.base.white}"
       },
       "disabled": {
-        "value": "{colors.grayDarkMode.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.500}"
       },
       "brandSecondary500": {
-        "value": "{colors.brand.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.brand.500}"
       },
       "brandPrimary600": {
-        "value": "{colors.brand.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.brand.500}"
       },
       "quaternary400": {
-        "value": "{colors.grayDarkMode.600}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.600}"
       },
       "quaternaryHover": {
-        "value": "{colors.grayDarkMode.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.500}"
       },
       "errorPrimary": {
-        "value": "{colors.error.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.error.500}"
       },
       "disabledSubtle": {
-        "value": "{colors.grayDarkMode.600}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.600}"
       },
       "warningSecondary": {
-        "value": "{colors.warning.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.warning.400}"
       },
       "errorSecondary": {
-        "value": "{colors.error.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.error.400}"
       },
       "tertiary600": {
-        "value": "{colors.grayDarkMode.400}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.400}"
       },
       "tertiaryHover": {
-        "value": "{colors.grayDarkMode.300}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.300}"
       },
       "brandPrimaryAlt": {
-        "value": "{colors.grayDarkMode.300}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.300}"
       },
       "brandSecondaryAlt": {
-        "value": "{colors.grayDarkMode.600}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.600}"
       },
       "brandSecondaryHover": {
-        "value": "{colors.grayDarkMode.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.500}"
       }
     },
     "effects": {
       "shadows": {
         "xs": {
-          "value": {
+          "$type": "boxShadow",
+          "$value": {
             "color": "{colors.effects.shadowColors.shadowColor01}",
             "type": "dropShadow",
             "x": 0,
@@ -363,11 +364,11 @@
             "blur": 2,
             "spread": 0
           },
-          "type": "boxShadow",
-          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+          "$description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
         },
         "sm": {
-          "value": [
+          "$type": "boxShadow",
+          "$value": [
             {
               "color": "{colors.effects.shadowColors.shadowColor02}",
               "type": "dropShadow",
@@ -385,11 +386,11 @@
               "spread": -1
             }
           ],
-          "type": "boxShadow",
-          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+          "$description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
         },
         "md": {
-          "value": [
+          "$type": "boxShadow",
+          "$value": [
             {
               "color": "{colors.effects.shadowColors.shadowColor02}",
               "type": "dropShadow",
@@ -407,11 +408,11 @@
               "spread": -2
             }
           ],
-          "type": "boxShadow",
-          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+          "$description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
         },
         "lg": {
-          "value": [
+          "$type": "boxShadow",
+          "$value": [
             {
               "color": "{colors.effects.shadowColors.shadowColor04}",
               "type": "dropShadow",
@@ -437,11 +438,11 @@
               "spread": -1
             }
           ],
-          "type": "boxShadow",
-          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+          "$description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
         },
         "xl": {
-          "value": [
+          "$type": "boxShadow",
+          "$value": [
             {
               "color": "{colors.effects.shadowColors.shadowColor04}",
               "type": "dropShadow",
@@ -467,11 +468,11 @@
               "spread": -1.5
             }
           ],
-          "type": "boxShadow",
-          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+          "$description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
         },
         "2xl": {
-          "value": [
+          "$type": "boxShadow",
+          "$value": [
             {
               "color": "{colors.effects.shadowColors.shadowColor07}",
               "type": "dropShadow",
@@ -489,11 +490,11 @@
               "spread": -2
             }
           ],
-          "type": "boxShadow",
-          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+          "$description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
         },
         "3xl": {
-          "value": [
+          "$type": "boxShadow",
+          "$value": [
             {
               "color": "{colors.effects.shadowColors.shadowColor08}",
               "type": "dropShadow",
@@ -511,31 +512,31 @@
               "spread": -2.5
             }
           ],
-          "type": "boxShadow",
-          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+          "$description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
         }
       },
       "portfolioMockups": {
         "shadowMainCentreMd": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.base.transparent}"
         },
         "shadowMainCentreLg": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.base.transparent}"
         },
         "shadowOverlayLg": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.base.transparent}"
         },
         "shadowGridMd": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.base.transparent}"
         }
       },
       "focusRings": {
         "focusRing": {
-          "value": [
+          "$type": "boxShadow",
+          "$value": [
             {
               "color": "#ffffff",
               "type": "dropShadow",
@@ -553,11 +554,11 @@
               "spread": 4
             }
           ],
-          "type": "boxShadow",
-          "description": "Used for focus states in components. For example toggles and checkboxes."
+          "$description": "Used for focus states in components. For example toggles and checkboxes."
         },
         "focusRingError": {
-          "value": [
+          "$type": "boxShadow",
+          "$value": [
             {
               "color": "#ffffff",
               "type": "dropShadow",
@@ -575,11 +576,11 @@
               "spread": 4
             }
           ],
-          "type": "boxShadow",
-          "description": "Used for destructive or error focus states in components. For example, destructive button links."
+          "$description": "Used for destructive or error focus states in components. For example, destructive button links."
         },
         "focusRingShadowXs": {
-          "value": [
+          "$type": "boxShadow",
+          "$value": [
             {
               "color": "{colors.effects.shadowColors.shadowColor01}",
               "type": "dropShadow",
@@ -605,11 +606,11 @@
               "spread": 4
             }
           ],
-          "type": "boxShadow",
-          "description": "Used for focus states in components that also require a shadow. For example, buttons and tabs."
+          "$description": "Used for focus states in components that also require a shadow. For example, buttons and tabs."
         },
         "focusRingErrorShadowXs": {
-          "value": [
+          "$type": "boxShadow",
+          "$value": [
             {
               "color": "{colors.effects.shadowColors.shadowColor01}",
               "type": "dropShadow",
@@ -635,181 +636,180 @@
               "spread": 4
             }
           ],
-          "type": "boxShadow",
-          "description": "Used for destructive or error focus states in components that also require a shadow. For example, destructive buttons."
+          "$description": "Used for destructive or error focus states in components that also require a shadow. For example, destructive buttons."
         }
       },
       "gradients": {
         "skeuemorphicGradientBorder": {
-          "value": "linear-gradient(180deg, #ffffff1f 0%, #ffffff00 100%)",
-          "type": "color",
-          "description": "Used to create a subtle skeuemorphic effect in components such as primary buttons. This can be removed or replaced with a 1px stroke if you prefer a flat style."
+          "$type": "color",
+          "$value": "linear-gradient(180deg, #ffffff1f 0%, #ffffff00 100%)",
+          "$description": "Used to create a subtle skeuemorphic effect in components such as primary buttons. This can be removed or replaced with a 1px stroke if you prefer a flat style."
         },
         "grayGradient600To500Deg90": {
-          "value": "linear-gradient(90deg, #535862 0%, #717680 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(90deg, #535862 0%, #717680 100%)"
         },
         "grayGradient700To600Deg45": {
-          "value": "linear-gradient(45deg, #414651 0%, #535862 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(45deg, #414651 0%, #535862 100%)"
         },
         "grayGradient800To600Deg45": {
-          "value": "linear-gradient(45deg, #252b37 0%, #535862 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(45deg, #252b37 0%, #535862 100%)"
         },
         "grayGradient800To600Deg90": {
-          "value": "linear-gradient(90deg, #252b37 0%, #535862 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(90deg, #252b37 0%, #535862 100%)"
         },
         "grayGradient800To700Deg27": {
-          "value": "linear-gradient(27deg, #252b37 0%, #414651 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(27deg, #252b37 0%, #414651 100%)"
         },
         "grayGradient900To600Deg45": {
-          "value": "linear-gradient(45deg, #181d27 0%, #535862 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(45deg, #181d27 0%, #535862 100%)"
         },
         "grayGradient900To700Deg45": {
-          "value": "linear-gradient(45deg, #181d27 0%, #414651 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(45deg, #181d27 0%, #414651 100%)"
         },
         "grayGradient50ToWhiteDeg180": {
-          "value": "linear-gradient(180deg, #ffffff 0%, #fafafa 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(180deg, #ffffff 0%, #fafafa 100%)"
         },
         "grayGradient100ToWhiteDeg180": {
-          "value": "linear-gradient(180deg, #ffffff 0%, #f5f5f5 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(180deg, #ffffff 0%, #f5f5f5 100%)"
         },
         "grayGradient100To25Deg180": {
-          "value": "linear-gradient(180deg, #fdfdfd 0%, #f5f5f5 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(180deg, #fdfdfd 0%, #f5f5f5 100%)"
         },
         "grayGradient100To50Deg180": {
-          "value": "linear-gradient(180deg, #fafafa 0%, #f5f5f5 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(180deg, #fafafa 0%, #f5f5f5 100%)"
         },
         "grayGradient200To25Deg180": {
-          "value": "linear-gradient(180deg, #fdfdfd 0%, #e9eaeb 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(180deg, #fdfdfd 0%, #e9eaeb 100%)"
         },
         "grayGradient200To50Deg180": {
-          "value": "linear-gradient(180deg, #fafafa 0%, #e9eaeb 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(180deg, #fafafa 0%, #e9eaeb 100%)"
         },
         "grayGradient200To100Deg180": {
-          "value": "linear-gradient(180deg, #f5f5f5 0%, #e9eaeb 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(180deg, #f5f5f5 0%, #e9eaeb 100%)"
         },
         "brandGradient600To500Deg90": {
-          "value": "linear-gradient(90deg, #7f56d9 0%, #9e77ed 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(90deg, #7f56d9 0%, #9e77ed 100%)"
         },
         "brandGradient700To600Deg45": {
-          "value": "linear-gradient(45deg, #6941c6 0%, #7f56d9 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(45deg, #6941c6 0%, #7f56d9 100%)"
         },
         "brandGradient800To600Deg45": {
-          "value": "linear-gradient(45deg, #53389e 0%, #7f56d9 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(45deg, #53389e 0%, #7f56d9 100%)"
         },
         "brandGradient800To600Deg90": {
-          "value": "linear-gradient(90deg, #53389e 0%, #7f56d9 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(90deg, #53389e 0%, #7f56d9 100%)"
         },
         "brandGradient800To700Deg27": {
-          "value": "linear-gradient(27deg, #53389e 0%, #6941c6 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(27deg, #53389e 0%, #6941c6 100%)"
         },
         "brandGradient900To600Deg45": {
-          "value": "linear-gradient(45deg, #42307d 0%, #7f56d9 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(45deg, #42307d 0%, #7f56d9 100%)"
         },
         "brandGradient900To700Deg45": {
-          "value": "linear-gradient(45deg, #42307d 0%, #6941c6 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(45deg, #42307d 0%, #6941c6 100%)"
         },
         "linearGradient01": {
-          "value": "linear-gradient(0deg, #cfc7f8 0%, #ebbba7 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(0deg, #cfc7f8 0%, #ebbba7 100%)"
         },
         "linearGradient02": {
-          "value": "linear-gradient(135deg, #fccb90 0%, #d57eeb 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(135deg, #fccb90 0%, #d57eeb 100%)"
         },
         "linearGradient03": {
-          "value": "linear-gradient(45deg, #7b6ae0 0%, #ffbb89 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(45deg, #7b6ae0 0%, #ffbb89 100%)"
         },
         "linearGradient04": {
-          "value": "linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)"
         },
         "linearGradient05": {
-          "value": "linear-gradient(0deg, #fed6e3 0%, #a8edea 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(0deg, #fed6e3 0%, #a8edea 100%)"
         },
         "linearGradient06": {
-          "value": "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)"
         },
         "linearGradient07": {
-          "value": "linear-gradient(45deg, #dfd1c5 0%, #fff6eb 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(45deg, #dfd1c5 0%, #fff6eb 100%)"
         },
         "linearGradient08": {
-          "value": "linear-gradient(135deg, #fff6b7 0%, #fb758a 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(135deg, #fff6b7 0%, #fb758a 100%)"
         },
         "linearGradient09": {
-          "value": "linear-gradient(45deg, #ff7ec7 0%, #ffed46 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(45deg, #ff7ec7 0%, #ffed46 100%)"
         },
         "linearGradient10": {
-          "value": "linear-gradient(0deg, #feafa8 0%, #f5efef 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "linear-gradient(0deg, #feafa8 0%, #f5efef 100%)"
         }
       },
       "shadowColors": {
         "shadowColor01": {
-          "value": "#0a0d120d",
-          "type": "color",
-          "description": "Shadow color for xs and sm shadows"
+          "$type": "color",
+          "$value": "#0a0d120d",
+          "$description": "Shadow color for xs and sm shadows"
         },
         "shadowColor02": {
-          "value": "#0a0d121a",
-          "type": "color",
-          "description": "Shadow color for sm and md shadows"
+          "$type": "color",
+          "$value": "#0a0d121a",
+          "$description": "Shadow color for sm and md shadows"
         },
         "shadowColor03": {
-          "value": "#0a0d120f",
-          "type": "color",
-          "description": "Shadow color for md shadows"
+          "$type": "color",
+          "$value": "#0a0d120f",
+          "$description": "Shadow color for md shadows"
         },
         "shadowColor04": {
-          "value": "#0a0d1214",
-          "type": "color",
-          "description": "Shadow color for lg shadows"
+          "$type": "color",
+          "$value": "#0a0d1214",
+          "$description": "Shadow color for lg shadows"
         },
         "shadowColor05": {
-          "value": "#0a0d1208",
-          "type": "color",
-          "description": "Shadow color for lg and xl shadows"
+          "$type": "color",
+          "$value": "#0a0d1208",
+          "$description": "Shadow color for lg and xl shadows"
         },
         "shadowColor06": {
-          "value": "#0a0d120a",
-          "type": "color",
-          "description": "Shadow color for lg, xl, 2xl, and 3xl shadows"
+          "$type": "color",
+          "$value": "#0a0d120a",
+          "$description": "Shadow color for lg, xl, 2xl, and 3xl shadows"
         },
         "shadowColor07": {
-          "value": "#0a0d122e",
-          "type": "color",
-          "description": "Shadow color for 2xl shadows"
+          "$type": "color",
+          "$value": "#0a0d122e",
+          "$description": "Shadow color for 2xl shadows"
         },
         "shadowColor08": {
-          "value": "#0a0d1224",
-          "type": "color",
-          "description": "Shadow color for 3xl shadows"
+          "$type": "color",
+          "$value": "#0a0d1224",
+          "$description": "Shadow color for 3xl shadows"
         }
       }
     }
@@ -818,845 +818,845 @@
     "utility": {
       "blue": {
         "utilityBlue600": {
-          "value": "{colors.blue.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blue.400}"
         },
         "utilityBlue700": {
-          "value": "{colors.blue.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blue.300}"
         },
         "utilityBlue500": {
-          "value": "{colors.blue.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blue.500}"
         },
         "utilityBlue200": {
-          "value": "{colors.blue.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blue.800}"
         },
         "utilityBlue50": {
-          "value": "{colors.blue.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blue.950}"
         },
         "utilityBlue100": {
-          "value": "{colors.blue.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blue.900}"
         },
         "utilityBlue400": {
-          "value": "{colors.blue.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blue.600}"
         },
         "utilityBlue300": {
-          "value": "{colors.blue.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blue.700}"
         }
       },
       "brand": {
         "utilityBrand600": {
-          "value": "{colors.brand.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.brand.400}"
         },
         "utilityBrand700": {
-          "value": "{colors.brand.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.brand.300}"
         },
         "utilityBrand500": {
-          "value": "{colors.brand.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.brand.500}"
         },
         "utilityBrand200": {
-          "value": "{colors.brand.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.brand.800}"
         },
         "utilityBrand50": {
-          "value": "{colors.brand.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.brand.950}"
         },
         "utilityBrand100": {
-          "value": "{colors.brand.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.brand.900}"
         },
         "utilityBrand400": {
-          "value": "{colors.brand.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.brand.600}"
         },
         "utilityBrand50Alt": {
-          "value": "{componentColors.utility.gray.utilityGray50}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{componentColors.utility.gray.utilityGray50}"
         },
         "utilityBrand100Alt": {
-          "value": "{componentColors.utility.gray.utilityGray100}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{componentColors.utility.gray.utilityGray100}"
         },
         "utilityBrand200Alt": {
-          "value": "{componentColors.utility.gray.utilityGray200}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{componentColors.utility.gray.utilityGray200}"
         },
         "utilityBrand400Alt": {
-          "value": "{componentColors.utility.gray.utilityGray400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{componentColors.utility.gray.utilityGray400}"
         },
         "utilityBrand500Alt": {
-          "value": "{componentColors.utility.gray.utilityGray500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{componentColors.utility.gray.utilityGray500}"
         },
         "utilityBrand600Alt": {
-          "value": "{componentColors.utility.gray.utilityGray600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{componentColors.utility.gray.utilityGray600}"
         },
         "utilityBrand700Alt": {
-          "value": "{componentColors.utility.gray.utilityGray700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{componentColors.utility.gray.utilityGray700}"
         },
         "utilityBrand300": {
-          "value": "{colors.brand.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.brand.700}"
         },
         "utilityBrand900": {
-          "value": "{colors.brand.100}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.brand.100}"
         },
         "utilityBrand800": {
-          "value": "{colors.brand.200}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.brand.200}"
         },
         "utilityBrand300Alt": {
-          "value": "{componentColors.utility.gray.utilityGray300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{componentColors.utility.gray.utilityGray300}"
         },
         "utilityBrand800Alt": {
-          "value": "{componentColors.utility.gray.utilityGray800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{componentColors.utility.gray.utilityGray800}"
         },
         "utilityBrand900Alt": {
-          "value": "{componentColors.utility.gray.utilityGray900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{componentColors.utility.gray.utilityGray900}"
         }
       },
       "gray": {
         "utilityGray700": {
-          "value": "{colors.grayDarkMode.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.300}"
         },
         "utilityGray600": {
-          "value": "{colors.grayDarkMode.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.400}"
         },
         "utilityGray500": {
-          "value": "{colors.grayDarkMode.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.500}"
         },
         "utilityGray200": {
-          "value": "{colors.grayDarkMode.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.700}"
         },
         "utilityGray50": {
-          "value": "{colors.grayDarkMode.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.900}"
         },
         "utilityGray100": {
-          "value": "{colors.grayDarkMode.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.800}"
         },
         "utilityGray400": {
-          "value": "{colors.grayDarkMode.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.600}"
         },
         "utilityGray300": {
-          "value": "{colors.grayDarkMode.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.700}"
         },
         "utilityGray900": {
-          "value": "{colors.grayDarkMode.100}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.100}"
         },
         "utilityGray800": {
-          "value": "{colors.grayDarkMode.200}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.200}"
         }
       },
       "error": {
         "utilityError600": {
-          "value": "{colors.error.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.error.400}"
         },
         "utilityError700": {
-          "value": "{colors.error.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.error.300}"
         },
         "utilityError500": {
-          "value": "{colors.error.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.error.500}"
         },
         "utilityError200": {
-          "value": "{colors.error.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.error.800}"
         },
         "utilityError50": {
-          "value": "{colors.error.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.error.950}"
         },
         "utilityError100": {
-          "value": "{colors.error.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.error.900}"
         },
         "utilityError400": {
-          "value": "{colors.error.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.error.600}"
         },
         "utilityError300": {
-          "value": "{colors.error.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.error.700}"
         }
       },
       "warning": {
         "utilityWarning600": {
-          "value": "{colors.warning.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.warning.400}"
         },
         "utilityWarning700": {
-          "value": "{colors.warning.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.warning.300}"
         },
         "utilityWarning500": {
-          "value": "{colors.warning.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.warning.500}"
         },
         "utilityWarning200": {
-          "value": "{colors.warning.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.warning.800}"
         },
         "utilityWarning50": {
-          "value": "{colors.warning.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.warning.950}"
         },
         "utilityWarning100": {
-          "value": "{colors.warning.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.warning.900}"
         },
         "utilityWarning400": {
-          "value": "{colors.warning.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.warning.600}"
         },
         "utilityWarning300": {
-          "value": "{colors.warning.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.warning.700}"
         }
       },
       "success": {
         "utilitySuccess600": {
-          "value": "{colors.success.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.success.400}"
         },
         "utilitySuccess700": {
-          "value": "{colors.success.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.success.300}"
         },
         "utilitySuccess500": {
-          "value": "{colors.success.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.success.500}"
         },
         "utilitySuccess200": {
-          "value": "{colors.success.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.success.800}"
         },
         "utilitySuccess50": {
-          "value": "{colors.success.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.success.950}"
         },
         "utilitySuccess100": {
-          "value": "{colors.success.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.success.900}"
         },
         "utilitySuccess400": {
-          "value": "{colors.success.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.success.600}"
         },
         "utilitySuccess300": {
-          "value": "{colors.success.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.success.700}"
         }
       },
       "orange": {
         "utilityOrange600": {
-          "value": "{colors.orange.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orange.400}"
         },
         "utilityOrange700": {
-          "value": "{colors.orange.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orange.300}"
         },
         "utilityOrange500": {
-          "value": "{colors.orange.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orange.500}"
         },
         "utilityOrange200": {
-          "value": "{colors.orange.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orange.800}"
         },
         "utilityOrange50": {
-          "value": "{colors.orange.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orange.950}"
         },
         "utilityOrange100": {
-          "value": "{colors.orange.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orange.900}"
         },
         "utilityOrange400": {
-          "value": "{colors.orange.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orange.600}"
         },
         "utilityOrange300": {
-          "value": "{colors.orange.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orange.700}"
         }
       },
       "blueDark": {
         "utilityBlueDark600": {
-          "value": "{colors.blueDark.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueDark.400}"
         },
         "utilityBlueDark700": {
-          "value": "{colors.blueDark.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueDark.300}"
         },
         "utilityBlueDark500": {
-          "value": "{colors.blueDark.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueDark.500}"
         },
         "utilityBlueDark200": {
-          "value": "{colors.blueDark.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueDark.800}"
         },
         "utilityBlueDark50": {
-          "value": "{colors.blueDark.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueDark.950}"
         },
         "utilityBlueDark100": {
-          "value": "{colors.blueDark.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueDark.900}"
         },
         "utilityBlueDark400": {
-          "value": "{colors.blueDark.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueDark.600}"
         },
         "utilityBlueDark300": {
-          "value": "{colors.blueDark.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueDark.700}"
         }
       },
       "indigo": {
         "utilityIndigo600": {
-          "value": "{colors.indigo.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.indigo.400}"
         },
         "utilityIndigo700": {
-          "value": "{colors.indigo.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.indigo.300}"
         },
         "utilityIndigo500": {
-          "value": "{colors.indigo.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.indigo.500}"
         },
         "utilityIndigo200": {
-          "value": "{colors.indigo.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.indigo.800}"
         },
         "utilityIndigo50": {
-          "value": "{colors.indigo.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.indigo.950}"
         },
         "utilityIndigo100": {
-          "value": "{colors.indigo.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.indigo.900}"
         },
         "utilityIndigo400": {
-          "value": "{colors.indigo.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.indigo.600}"
         },
         "utilityIndigo300": {
-          "value": "{colors.indigo.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.indigo.700}"
         }
       },
       "fuchsia": {
         "utilityFuchsia600": {
-          "value": "{colors.fuchsia.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.fuchsia.400}"
         },
         "utilityFuchsia700": {
-          "value": "{colors.fuchsia.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.fuchsia.300}"
         },
         "utilityFuchsia500": {
-          "value": "{colors.fuchsia.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.fuchsia.500}"
         },
         "utilityFuchsia200": {
-          "value": "{colors.fuchsia.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.fuchsia.800}"
         },
         "utilityFuchsia50": {
-          "value": "{colors.fuchsia.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.fuchsia.950}"
         },
         "utilityFuchsia100": {
-          "value": "{colors.fuchsia.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.fuchsia.900}"
         },
         "utilityFuchsia400": {
-          "value": "{colors.fuchsia.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.fuchsia.600}"
         },
         "utilityFuchsia300": {
-          "value": "{colors.fuchsia.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.fuchsia.700}"
         }
       },
       "pink": {
         "utilityPink600": {
-          "value": "{colors.pink.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.pink.400}"
         },
         "utilityPink700": {
-          "value": "{colors.pink.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.pink.300}"
         },
         "utilityPink500": {
-          "value": "{colors.pink.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.pink.500}"
         },
         "utilityPink200": {
-          "value": "{colors.pink.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.pink.800}"
         },
         "utilityPink50": {
-          "value": "{colors.pink.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.pink.950}"
         },
         "utilityPink100": {
-          "value": "{colors.pink.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.pink.900}"
         },
         "utilityPink400": {
-          "value": "{colors.pink.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.pink.600}"
         },
         "utilityPink300": {
-          "value": "{colors.pink.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.pink.700}"
         }
       },
       "purple": {
         "utilityPurple600": {
-          "value": "{colors.purple.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.purple.400}"
         },
         "utilityPurple700": {
-          "value": "{colors.purple.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.purple.300}"
         },
         "utilityPurple500": {
-          "value": "{colors.purple.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.purple.500}"
         },
         "utilityPurple200": {
-          "value": "{colors.purple.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.purple.800}"
         },
         "utilityPurple50": {
-          "value": "{colors.purple.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.purple.950}"
         },
         "utilityPurple100": {
-          "value": "{colors.purple.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.purple.900}"
         },
         "utilityPurple400": {
-          "value": "{colors.purple.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.purple.600}"
         },
         "utilityPurple300": {
-          "value": "{colors.purple.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.purple.700}"
         }
       },
       "orangeDark": {
         "utilityOrangeDark600": {
-          "value": "{colors.orangeDark.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orangeDark.400}"
         },
         "utilityOrangeDark700": {
-          "value": "{colors.orangeDark.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orangeDark.300}"
         },
         "utilityOrangeDark500": {
-          "value": "{colors.orangeDark.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orangeDark.500}"
         },
         "utilityOrangeDark200": {
-          "value": "{colors.orangeDark.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orangeDark.800}"
         },
         "utilityOrangeDark50": {
-          "value": "{colors.orangeDark.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orangeDark.950}"
         },
         "utilityOrangeDark100": {
-          "value": "{colors.orangeDark.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orangeDark.900}"
         },
         "utilityOrangeDark400": {
-          "value": "{colors.orangeDark.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orangeDark.600}"
         },
         "utilityOrangeDark300": {
-          "value": "{colors.orangeDark.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.orangeDark.700}"
         }
       },
       "blueLight": {
         "utilityBlueLight600": {
-          "value": "{colors.blueLight.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueLight.400}"
         },
         "utilityBlueLight700": {
-          "value": "{colors.blueLight.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueLight.300}"
         },
         "utilityBlueLight500": {
-          "value": "{colors.blueLight.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueLight.500}"
         },
         "utilityBlueLight200": {
-          "value": "{colors.blueLight.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueLight.800}"
         },
         "utilityBlueLight50": {
-          "value": "{colors.blueLight.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueLight.950}"
         },
         "utilityBlueLight100": {
-          "value": "{colors.blueLight.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueLight.900}"
         },
         "utilityBlueLight400": {
-          "value": "{colors.blueLight.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueLight.600}"
         },
         "utilityBlueLight300": {
-          "value": "{colors.blueLight.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.blueLight.700}"
         }
       },
       "grayBlue": {
         "utilityGrayBlue600": {
-          "value": "{colors.grayBlue.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayBlue.400}"
         },
         "utilityGrayBlue700": {
-          "value": "{colors.grayBlue.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayBlue.300}"
         },
         "utilityGrayBlue500": {
-          "value": "{colors.grayBlue.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayBlue.500}"
         },
         "utilityGrayBlue200": {
-          "value": "{colors.grayBlue.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayBlue.800}"
         },
         "utilityGrayBlue50": {
-          "value": "{colors.grayBlue.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayBlue.950}"
         },
         "utilityGrayBlue100": {
-          "value": "{colors.grayBlue.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayBlue.900}"
         },
         "utilityGrayBlue400": {
-          "value": "{colors.grayBlue.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayBlue.600}"
         },
         "utilityGrayBlue300": {
-          "value": "{colors.grayBlue.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayBlue.700}"
         }
       },
       "green": {
         "utilityGreen50": {
-          "value": "{colors.green.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.green.950}"
         },
         "utilityGreen100": {
-          "value": "{colors.green.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.green.900}"
         },
         "utilityGreen200": {
-          "value": "{colors.green.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.green.800}"
         },
         "utilityGreen300": {
-          "value": "{colors.green.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.green.700}"
         },
         "utilityGreen400": {
-          "value": "{colors.green.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.green.600}"
         },
         "utilityGreen500": {
-          "value": "{colors.green.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.green.500}"
         },
         "utilityGreen600": {
-          "value": "{colors.green.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.green.400}"
         },
         "utilityGreen700": {
-          "value": "{colors.green.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.green.300}"
         }
       },
       "yellow": {
         "utilityYellow50": {
-          "value": "{colors.yellow.950}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.yellow.950}"
         },
         "utilityYellow100": {
-          "value": "{colors.yellow.900}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.yellow.900}"
         },
         "utilityYellow200": {
-          "value": "{colors.yellow.800}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.yellow.800}"
         },
         "utilityYellow300": {
-          "value": "{colors.yellow.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.yellow.700}"
         },
         "utilityYellow400": {
-          "value": "{colors.yellow.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.yellow.600}"
         },
         "utilityYellow500": {
-          "value": "{colors.yellow.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.yellow.500}"
         },
         "utilityYellow600": {
-          "value": "{colors.yellow.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.yellow.400}"
         },
         "utilityYellow700": {
-          "value": "{colors.yellow.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.yellow.300}"
         }
       }
     },
     "components": {
       "tooltips": {
         "tooltipSupportingText": {
-          "value": "{colors.grayDarkMode.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.300}"
         }
       },
       "textEditor": {
         "textEditorIconFg": {
-          "value": "{colors.grayDarkMode.400}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.400}"
         },
         "textEditorIconFgActive": {
-          "value": "{colors.base.white}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.base.white}"
         }
       },
       "icons": {
         "featuredIcons": {
           "featuredIconLightFgBrand": {
-            "value": "{colors.brand.200}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{colors.brand.200}"
           },
           "featuredIconLightFgGray": {
-            "value": "{colors.grayDarkMode.200}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{colors.grayDarkMode.200}"
           },
           "featuredIconLightFgError": {
-            "value": "{colors.error.200}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{colors.error.200}"
           },
           "featuredIconLightFgWarning": {
-            "value": "{colors.warning.200}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{colors.warning.200}"
           },
           "featuredIconLightFgSuccess": {
-            "value": "{colors.success.200}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{colors.success.200}"
           }
         },
         "icons": {
           "iconFgBrand": {
-            "value": "{colors.grayDarkMode.400}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{colors.grayDarkMode.400}"
           },
           "iconFgBrandOnBrand": {
-            "value": "{colors.grayDarkMode.400}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{colors.grayDarkMode.400}"
           }
         }
       },
       "sliders": {
         "sliderHandleBorder": {
-          "value": "{colors.background.primary}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.background.primary}"
         },
         "sliderHandleBg": {
-          "value": "{colors.foreground.brandPrimary600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.foreground.brandPrimary600}"
         }
       },
       "mockups": {
         "screenMockupBorder": {
-          "value": "{colors.grayDarkMode.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.700}"
         }
       },
       "footers": {
         "footerButtonFg": {
-          "value": "{colors.grayDarkMode.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.300}"
         },
         "footerButtonFgHover": {
-          "value": "{colors.grayDarkMode.100}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.100}"
         }
       },
       "appStoreBadges": {
         "appStoreBadgeBorder": {
-          "value": "{colors.base.white}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.base.white}"
         }
       },
       "toggles": {
         "toggleButtonFgDisabled": {
-          "value": "{colors.grayDarkMode.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.grayDarkMode.600}"
         },
         "toggleBorder": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.base.transparent}"
         },
         "toggleSlimBorderPressed": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.base.transparent}"
         },
         "toggleSlimBorderPressedHover": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.base.transparent}"
         }
       },
       "avatars": {
         "avatarStylesBgNeutral": {
-          "value": "#e0e0e0",
-          "type": "color"
+          "$type": "color",
+          "$value": "#e0e0e0"
         }
       },
       "buttons": {
         "buttonPrimaryIcon": {
-          "value": "{colors.brand.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.brand.300}"
         },
         "buttonPrimaryIconHover": {
-          "value": "{colors.brand.200}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.brand.200}"
         },
         "buttonDestructivePrimaryIcon": {
-          "value": "{colors.error.300}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.error.300}"
         },
         "buttonDestructivePrimaryIconHover": {
-          "value": "{colors.error.200}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{colors.error.200}"
         }
       }
     },
     "alpha": {
       "alphaWhite90": {
-        "value": "#0c0e12e6",
-        "type": "color"
+        "$type": "color",
+        "$value": "#0c0e12e6"
       },
       "alphaWhite80": {
-        "value": "#0c0e12cc",
-        "type": "color"
+        "$type": "color",
+        "$value": "#0c0e12cc"
       },
       "alphaWhite70": {
-        "value": "#0c0e12b3",
-        "type": "color"
+        "$type": "color",
+        "$value": "#0c0e12b3"
       },
       "alphaWhite60": {
-        "value": "#0c0e1299",
-        "type": "color"
+        "$type": "color",
+        "$value": "#0c0e1299"
       },
       "alphaWhite50": {
-        "value": "#0c0e1280",
-        "type": "color"
+        "$type": "color",
+        "$value": "#0c0e1280"
       },
       "alphaWhite40": {
-        "value": "#0c0e1266",
-        "type": "color"
+        "$type": "color",
+        "$value": "#0c0e1266"
       },
       "alphaWhite30": {
-        "value": "#0c0e124d",
-        "type": "color"
+        "$type": "color",
+        "$value": "#0c0e124d"
       },
       "alphaWhite20": {
-        "value": "#0c0e1233",
-        "type": "color"
+        "$type": "color",
+        "$value": "#0c0e1233"
       },
       "alphaWhite10": {
-        "value": "#0c0e121a",
-        "type": "color"
+        "$type": "color",
+        "$value": "#0c0e121a"
       },
       "alphaBlack10": {
-        "value": "#ffffff1a",
-        "type": "color"
+        "$type": "color",
+        "$value": "#ffffff1a"
       },
       "alphaBlack20": {
-        "value": "#ffffff33",
-        "type": "color"
+        "$type": "color",
+        "$value": "#ffffff33"
       },
       "alphaBlack30": {
-        "value": "#ffffff4d",
-        "type": "color"
+        "$type": "color",
+        "$value": "#ffffff4d"
       },
       "alphaBlack40": {
-        "value": "#ffffff66",
-        "type": "color"
+        "$type": "color",
+        "$value": "#ffffff66"
       },
       "alphaBlack50": {
-        "value": "#ffffff80",
-        "type": "color"
+        "$type": "color",
+        "$value": "#ffffff80"
       },
       "alphaBlack60": {
-        "value": "#ffffff99",
-        "type": "color"
+        "$type": "color",
+        "$value": "#ffffff99"
       },
       "alphaBlack70": {
-        "value": "#ffffffb3",
-        "type": "color"
+        "$type": "color",
+        "$value": "#ffffffb3"
       },
       "alphaBlack80": {
-        "value": "#ffffffcc",
-        "type": "color"
+        "$type": "color",
+        "$value": "#ffffffcc"
       },
       "alphaBlack90": {
-        "value": "#ffffffe6",
-        "type": "color"
+        "$type": "color",
+        "$value": "#ffffffe6"
       },
       "alphaBlack100": {
-        "value": "#ffffff",
-        "type": "color"
+        "$type": "color",
+        "$value": "#ffffff"
       },
       "alphaWhite100": {
-        "value": "{colors.grayDarkMode.950}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.grayDarkMode.950}"
       }
     }
   }

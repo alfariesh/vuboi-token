@@ -1,52 +1,52 @@
 {
   "width": {
     "xxs": {
-      "value": "{sizing.80}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{sizing.80}"
     },
     "sm": {
-      "value": "{sizing.120}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{sizing.120}"
     },
     "lg": {
-      "value": "{sizing.160}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{sizing.160}"
     },
     "xl": {
-      "value": "{sizing.192}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{sizing.192}"
     },
     "2xl": {
-      "value": "{sizing.256}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{sizing.256}"
     },
     "3xl": {
-      "value": "{sizing.320}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{sizing.320}"
     },
     "4xl": {
-      "value": "{sizing.360}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{sizing.360}"
     },
     "5xl": {
-      "value": "{sizing.400}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{sizing.400}"
     },
     "6xl": {
-      "value": "{sizing.480}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{sizing.480}"
     },
     "md": {
-      "value": "{sizing.140}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{sizing.140}"
     },
     "paragraphMaxWidth": {
-      "value": "{sizing.180}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{sizing.180}"
     },
     "xs": {
-      "value": "{sizing.96}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{sizing.96}"
     }
   }
 }

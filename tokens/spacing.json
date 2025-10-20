@@ -1,72 +1,72 @@
 {
   "spacing": {
     "none": {
-      "value": "{spacing.0}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.0}"
     },
     "xxs": {
-      "value": "{spacing.0․5}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.0․5}"
     },
     "xs": {
-      "value": "{spacing.1}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.1}"
     },
     "md": {
-      "value": "{spacing.2}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.2}"
     },
     "lg": {
-      "value": "{spacing.3}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.3}"
     },
     "xl": {
-      "value": "{spacing.4}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.4}"
     },
     "2xl": {
-      "value": "{spacing.5}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.5}"
     },
     "3xl": {
-      "value": "{spacing.6}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.6}"
     },
     "4xl": {
-      "value": "{spacing.8}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.8}"
     },
     "6xl": {
-      "value": "{spacing.12}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.12}"
     },
     "7xl": {
-      "value": "{spacing.16}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.16}"
     },
     "8xl": {
-      "value": "{spacing.20}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.20}"
     },
     "9xl": {
-      "value": "{spacing.24}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.24}"
     },
     "10xl": {
-      "value": "{spacing.32}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.32}"
     },
     "11xl": {
-      "value": "{spacing.40}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.40}"
     },
     "sm": {
-      "value": "{spacing.1․5}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.1․5}"
     },
     "5xl": {
-      "value": "{spacing.10}",
-      "type": "number"
+      "$type": "number",
+      "$value": "{spacing.10}"
     }
   }
 }
