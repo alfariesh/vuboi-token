@@ -174,8 +174,8 @@
     }
   },
   "typography": {
-    "display2xl": {
-      "Regular": {
+    "display.2xl": {
+      "regular": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.regular}",
@@ -189,7 +189,7 @@
         },
         "type": "typography"
       },
-      "Medium": {
+      "medium": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.medium}",
@@ -203,7 +203,7 @@
         },
         "type": "typography"
       },
-      "Semibold": {
+      "semibold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.semibold}",
@@ -217,7 +217,7 @@
         },
         "type": "typography"
       },
-      "Bold": {
+      "bold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.bold}",
@@ -232,8 +232,8 @@
         "type": "typography"
       }
     },
-    "displayXl": {
-      "Regular": {
+    "display.xl": {
+      "regular": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.regular}",
@@ -247,7 +247,7 @@
         },
         "type": "typography"
       },
-      "Medium": {
+      "medium": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.medium}",
@@ -261,7 +261,7 @@
         },
         "type": "typography"
       },
-      "Semibold": {
+      "semibold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.semibold}",
@@ -275,7 +275,7 @@
         },
         "type": "typography"
       },
-      "Bold": {
+      "bold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.bold}",
@@ -290,8 +290,8 @@
         "type": "typography"
       }
     },
-    "displayLg": {
-      "Regular": {
+    "display.lg": {
+      "regular": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.regular}",
@@ -305,7 +305,7 @@
         },
         "type": "typography"
       },
-      "Medium": {
+      "medium": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.medium}",
@@ -319,7 +319,7 @@
         },
         "type": "typography"
       },
-      "Semibold": {
+      "semibold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.semibold}",
@@ -333,7 +333,7 @@
         },
         "type": "typography"
       },
-      "Bold": {
+      "bold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.bold}",
@@ -348,8 +348,8 @@
         "type": "typography"
       }
     },
-    "displayMd": {
-      "Regular": {
+    "display.md": {
+      "regular": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.regular}",
@@ -363,7 +363,7 @@
         },
         "type": "typography"
       },
-      "Medium": {
+      "medium": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.medium}",
@@ -377,7 +377,7 @@
         },
         "type": "typography"
       },
-      "Semibold": {
+      "semibold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.semibold}",
@@ -391,7 +391,7 @@
         },
         "type": "typography"
       },
-      "Bold": {
+      "bold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.bold}",
@@ -406,8 +406,8 @@
         "type": "typography"
       }
     },
-    "displaySm": {
-      "Regular": {
+    "display.sm": {
+      "regular": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.regular}",
@@ -421,7 +421,7 @@
         },
         "type": "typography"
       },
-      "Medium": {
+      "medium": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.medium}",
@@ -435,7 +435,7 @@
         },
         "type": "typography"
       },
-      "Semibold": {
+      "semibold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.semibold}",
@@ -449,7 +449,7 @@
         },
         "type": "typography"
       },
-      "Bold": {
+      "bold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.bold}",
@@ -464,8 +464,8 @@
         "type": "typography"
       }
     },
-    "displayXs": {
-      "Regular": {
+    "display.xs": {
+      "regular": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.regular}",
@@ -479,7 +479,7 @@
         },
         "type": "typography"
       },
-      "Medium": {
+      "medium": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.medium}",
@@ -493,7 +493,7 @@
         },
         "type": "typography"
       },
-      "Semibold": {
+      "semibold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.semibold}",
@@ -507,7 +507,7 @@
         },
         "type": "typography"
       },
-      "Bold": {
+      "bold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.bold}",
@@ -522,8 +522,8 @@
         "type": "typography"
       }
     },
-    "textXl": {
-      "Regular": {
+    "text.xl": {
+      "regular": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.regular}",
@@ -537,7 +537,7 @@
         },
         "type": "typography"
       },
-      "Medium": {
+      "medium": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.medium}",
@@ -551,7 +551,7 @@
         },
         "type": "typography"
       },
-      "Semibold": {
+      "semibold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.semibold}",
@@ -565,7 +565,7 @@
         },
         "type": "typography"
       },
-      "Bold": {
+      "bold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.bold}",
@@ -580,8 +580,8 @@
         "type": "typography"
       }
     },
-    "textLg": {
-      "Regular": {
+    "text.lg": {
+      "regular": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.regular}",
@@ -595,7 +595,7 @@
         },
         "type": "typography"
       },
-      "Medium": {
+      "medium": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.medium}",
@@ -609,7 +609,7 @@
         },
         "type": "typography"
       },
-      "Semibold": {
+      "semibold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.semibold}",
@@ -623,7 +623,7 @@
         },
         "type": "typography"
       },
-      "Bold": {
+      "bold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.bold}",
@@ -638,8 +638,8 @@
         "type": "typography"
       }
     },
-    "textMd": {
-      "Regular": {
+    "text.md": {
+      "regular": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.regular}",
@@ -653,7 +653,7 @@
         },
         "type": "typography"
       },
-      "Medium": {
+      "medium": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.medium}",
@@ -667,7 +667,7 @@
         },
         "type": "typography"
       },
-      "Semibold": {
+      "semibold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.semibold}",
@@ -681,7 +681,7 @@
         },
         "type": "typography"
       },
-      "Bold": {
+      "bold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.bold}",
@@ -696,8 +696,8 @@
         "type": "typography"
       }
     },
-    "textSm": {
-      "Regular": {
+    "text.sm": {
+      "regular": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.regular}",
@@ -711,7 +711,7 @@
         },
         "type": "typography"
       },
-      "Medium": {
+      "medium": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.medium}",
@@ -725,7 +725,7 @@
         },
         "type": "typography"
       },
-      "Semibold": {
+      "semibold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.semibold}",
@@ -739,7 +739,7 @@
         },
         "type": "typography"
       },
-      "Bold": {
+      "bold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.bold}",
@@ -754,8 +754,8 @@
         "type": "typography"
       }
     },
-    "textXs": {
-      "Regular": {
+    "text.xs": {
+      "regular": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.regular}",
@@ -769,7 +769,7 @@
         },
         "type": "typography"
       },
-      "Medium": {
+      "medium": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.medium}",
@@ -783,7 +783,7 @@
         },
         "type": "typography"
       },
-      "Semibold": {
+      "semibold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.semibold}",
@@ -797,7 +797,7 @@
         },
         "type": "typography"
       },
-      "Bold": {
+      "bold": {
         "value": {
           "fontFamily": "{fontFamily.display}",
           "fontWeight": "{fontWeight.bold}",
