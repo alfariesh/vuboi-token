@@ -104,7 +104,7 @@
       "value": "Bricolage Grotesque",
       "type": "fontFamilies"
     },
-    "body": {
+    "text": {
       "value": "Inter",
       "type": "fontFamilies"
     }
@@ -525,7 +525,7 @@
     "text.xl": {
       "regular": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.regular}",
           "lineHeight": "{lineHeight.text.xl}",
           "fontSize": "{fontSize.xl}",
@@ -539,7 +539,7 @@
       },
       "medium": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.medium}",
           "lineHeight": "{lineHeight.text.xl}",
           "fontSize": "{fontSize.xl}",
@@ -553,7 +553,7 @@
       },
       "semibold": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.semibold}",
           "lineHeight": "{lineHeight.text.xl}",
           "fontSize": "{fontSize.xl}",
@@ -567,7 +567,7 @@
       },
       "bold": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.bold}",
           "lineHeight": "{lineHeight.text.xl}",
           "fontSize": "{fontSize.xl}",
@@ -583,7 +583,7 @@
     "text.lg": {
       "regular": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.regular}",
           "lineHeight": "{lineHeight.text.lg}",
           "fontSize": "{fontSize.lg}",
@@ -597,7 +597,7 @@
       },
       "medium": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.medium}",
           "lineHeight": "{lineHeight.text.lg}",
           "fontSize": "{fontSize.lg}",
@@ -611,7 +611,7 @@
       },
       "semibold": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.semibold}",
           "lineHeight": "{lineHeight.text.lg}",
           "fontSize": "{fontSize.lg}",
@@ -625,7 +625,7 @@
       },
       "bold": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.bold}",
           "lineHeight": "{lineHeight.text.lg}",
           "fontSize": "{fontSize.lg}",
@@ -641,7 +641,7 @@
     "text.md": {
       "regular": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.regular}",
           "lineHeight": "{lineHeight.text.md}",
           "fontSize": "{fontSize.md}",
@@ -655,7 +655,7 @@
       },
       "medium": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.medium}",
           "lineHeight": "{lineHeight.text.md}",
           "fontSize": "{fontSize.md}",
@@ -669,7 +669,7 @@
       },
       "semibold": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.semibold}",
           "lineHeight": "{lineHeight.text.md}",
           "fontSize": "{fontSize.md}",
@@ -683,7 +683,7 @@
       },
       "bold": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.bold}",
           "lineHeight": "{lineHeight.text.md}",
           "fontSize": "{fontSize.md}",
@@ -699,7 +699,7 @@
     "text.sm": {
       "regular": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.regular}",
           "lineHeight": "{lineHeight.text.sm}",
           "fontSize": "{fontSize.sm}",
@@ -713,7 +713,7 @@
       },
       "medium": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.medium}",
           "lineHeight": "{lineHeight.text.sm}",
           "fontSize": "{fontSize.sm}",
@@ -727,7 +727,7 @@
       },
       "semibold": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.semibold}",
           "lineHeight": "{lineHeight.text.sm}",
           "fontSize": "{fontSize.sm}",
@@ -741,7 +741,7 @@
       },
       "bold": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.bold}",
           "lineHeight": "{lineHeight.text.sm}",
           "fontSize": "{fontSize.sm}",
@@ -757,7 +757,7 @@
     "text.xs": {
       "regular": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.regular}",
           "lineHeight": "{lineHeight.text.xs}",
           "fontSize": "{fontSize.xs}",
@@ -771,7 +771,7 @@
       },
       "medium": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.medium}",
           "lineHeight": "{lineHeight.text.xs}",
           "fontSize": "{fontSize.xs}",
@@ -785,7 +785,7 @@
       },
       "semibold": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.semibold}",
           "lineHeight": "{lineHeight.text.xs}",
           "fontSize": "{fontSize.xs}",
@@ -799,7 +799,7 @@
       },
       "bold": {
         "value": {
-          "fontFamily": "{fontFamily.display}",
+          "fontFamily": "{fontFamily.text}",
           "fontWeight": "{fontWeight.bold}",
           "lineHeight": "{lineHeight.text.xs}",
           "fontSize": "{fontSize.xs}",
