@@ -1,0 +1,50 @@
+{
+  "width-xxs": {
+    "value": "{Sizing.80 (320px)}",
+    "type": "number"
+  },
+  "width-sm": {
+    "value": "{Sizing.120 (480px)}",
+    "type": "number"
+  },
+  "width-lg": {
+    "value": "{Sizing.160 (640px)}",
+    "type": "number"
+  },
+  "width-xl": {
+    "value": "{Sizing.192 (768px)}",
+    "type": "number"
+  },
+  "width-2xl": {
+    "value": "{Sizing.256 (1,024px)}",
+    "type": "number"
+  },
+  "width-3xl": {
+    "value": "{Sizing.320 (1,280px)}",
+    "type": "number"
+  },
+  "width-4xl": {
+    "value": "{Sizing.360 (1,440px)}",
+    "type": "number"
+  },
+  "width-5xl": {
+    "value": "{Sizing.400 (1,600px)}",
+    "type": "number"
+  },
+  "width-6xl": {
+    "value": "{Sizing.480 (1,920px)}",
+    "type": "number"
+  },
+  "width-md": {
+    "value": "{Sizing.140 (560px)}",
+    "type": "number"
+  },
+  "paragraph-max-width": {
+    "value": "{Sizing.180 (720px)}",
+    "type": "number"
+  },
+  "width-xs": {
+    "value": "{Spacing.96 (384px)}",
+    "type": "number"
+  }
+}

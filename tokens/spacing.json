@@ -1,0 +1,70 @@
+{
+  "spacing-none": {
+    "value": "{Spacing.0 (0px)}",
+    "type": "number"
+  },
+  "spacing-xxs": {
+    "value": "{Spacing.0․5 (2px)}",
+    "type": "number"
+  },
+  "spacing-xs": {
+    "value": "{Spacing.1 (4px)}",
+    "type": "number"
+  },
+  "spacing-md": {
+    "value": "{Spacing.2 (8px)}",
+    "type": "number"
+  },
+  "spacing-lg": {
+    "value": "{Spacing.3 (12px)}",
+    "type": "number"
+  },
+  "spacing-xl": {
+    "value": "{Spacing.4 (16px)}",
+    "type": "number"
+  },
+  "spacing-2xl": {
+    "value": "{Spacing.5 (20px)}",
+    "type": "number"
+  },
+  "spacing-3xl": {
+    "value": "{Spacing.6 (24px)}",
+    "type": "number"
+  },
+  "spacing-4xl": {
+    "value": "{Spacing.8 (32px)}",
+    "type": "number"
+  },
+  "spacing-6xl": {
+    "value": "{Spacing.12 (48px)}",
+    "type": "number"
+  },
+  "spacing-7xl": {
+    "value": "{Spacing.16 (64px)}",
+    "type": "number"
+  },
+  "spacing-8xl": {
+    "value": "{Spacing.20 (80px)}",
+    "type": "number"
+  },
+  "spacing-9xl": {
+    "value": "{Spacing.24 (96px)}",
+    "type": "number"
+  },
+  "spacing-10xl": {
+    "value": "{Spacing.32 (128px)}",
+    "type": "number"
+  },
+  "spacing-11xl": {
+    "value": "{Spacing.40 (160px)}",
+    "type": "number"
+  },
+  "spacing-sm": {
+    "value": "{Spacing.1․5 (6px)}",
+    "type": "number"
+  },
+  "spacing-5xl": {
+    "value": "{Spacing.10 (40px)}",
+    "type": "number"
+  }
+}

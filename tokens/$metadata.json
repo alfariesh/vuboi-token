@@ -1,0 +1,12 @@
+{
+  "tokenSetOrder": [
+    "primitives",
+    "modes/light",
+    "modes/dark",
+    "containers",
+    "widths",
+    "spacing",
+    "radius",
+    "typography"
+  ]
+}
