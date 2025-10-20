@@ -344,7 +344,7 @@
         "type": "color"
       },
       "brandSecondaryAlt": {
-        "value": "{colors.foreground.BrandSecondary500}",
+        "value": "{colors.foreground.brandSecondary500}",
         "type": "color"
       },
       "brandSecondaryHover": {
