@@ -1629,15 +1629,15 @@
     },
     "48": {
       "value": "192",
-      "type": "spacing"
+      "type": "sizing"
     },
     "56": {
       "value": "224",
-      "type": "spacing"
+      "type": "sizing"
     },
     "64": {
       "value": "256",
-      "type": "spacing"
+      "type": "sizing"
     },
     "0․5": {
       "value": "2",
