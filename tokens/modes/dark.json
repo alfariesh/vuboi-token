@@ -354,229 +354,179 @@
     },
     "effects": {
       "shadows": {
-        "shadowXs": {
-          "value": {
-            "color": "{colors.effects.shadowColors.shadowColor01}",
-            "type": "dropShadow",
-            "x": 0,
-            "y": 1,
-            "blur": 2,
-            "spread": 0
-          },
-          "type": "boxShadow",
-          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
-        },
-        "shadowSm02": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
-        },
-        "shadowLg01": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
-        },
-        "shadowLg02": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
-        },
-        "shadowSm01": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
-        },
-        "shadow3xl01": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
-        },
-        "shadow2xl01": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
-        },
-        "shadowMd01": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
-        },
-        "shadowMd02": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
-        },
-        "shadowXl01": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
-        },
-        "shadowXl02": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
-        },
-        "shadowSkeumorphicInner": {
-          "value": "#0c0e120d",
-          "type": "color"
-        },
-        "shadowSkeumorphicInnerBorder": {
-          "value": "#0c0e122e",
-          "type": "color"
-        },
-        "shadowLg03": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
-        },
-        "shadowXl03": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
-        },
-        "shadow2xl02": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
-        },
-        "shadow3xl02": {
-          "value": "{colors.base.transparent}",
-          "type": "color"
-        },
-        "shadowSm": {
-          "value": [
-            {
-              "color": "{colors.effects.shadowColors.shadowColor02}",
+        "xs": {
+          "1": {
+            "value": {
+              "color": "{colors.effects.shadowColors.shadowColor01}",
               "type": "dropShadow",
               "x": 0,
               "y": 1,
-              "blur": 3,
+              "blur": 2,
               "spread": 0
             },
-            {
-              "color": "{colors.effects.shadowColors.shadowColor02}",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 1,
-              "blur": 2,
-              "spread": -1
-            }
-          ],
-          "type": "boxShadow",
-          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+            "type": "boxShadow",
+            "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+          }
         },
-        "shadowMd": {
-          "value": [
-            {
-              "color": "{colors.effects.shadowColors.shadowColor02}",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 4,
-              "blur": 6,
-              "spread": -1
-            },
-            {
-              "color": "{colors.effects.shadowColors.shadowColor03}",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 2,
-              "blur": 4,
-              "spread": -2
-            }
-          ],
-          "type": "boxShadow",
-          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+        "sm": {
+          "1": {
+            "value": [
+              {
+                "color": "{colors.effects.shadowColors.shadowColor02}",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 1,
+                "blur": 3,
+                "spread": 0
+              },
+              {
+                "color": "{colors.effects.shadowColors.shadowColor02}",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 1,
+                "blur": 2,
+                "spread": -1
+              }
+            ],
+            "type": "boxShadow",
+            "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+          }
         },
-        "shadowLg": {
-          "value": [
-            {
-              "color": "{colors.effects.shadowColors.shadowColor04}",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 12,
-              "blur": 16,
-              "spread": -4
-            },
-            {
-              "color": "{colors.effects.shadowColors.shadowColor05}",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 4,
-              "blur": 6,
-              "spread": -2
-            },
-            {
-              "color": "{colors.effects.shadowColors.shadowColor06}",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 2,
-              "blur": 2,
-              "spread": -1
-            }
-          ],
-          "type": "boxShadow",
-          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+        "md": {
+          "1": {
+            "value": [
+              {
+                "color": "{colors.effects.shadowColors.shadowColor02}",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 4,
+                "blur": 6,
+                "spread": -1
+              },
+              {
+                "color": "{colors.effects.shadowColors.shadowColor03}",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 2,
+                "blur": 4,
+                "spread": -2
+              }
+            ],
+            "type": "boxShadow",
+            "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+          }
         },
-        "shadowXl": {
-          "value": [
-            {
-              "color": "{colors.effects.shadowColors.shadowColor04}",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 20,
-              "blur": 24,
-              "spread": -4
-            },
-            {
-              "color": "{colors.effects.shadowColors.shadowColor05}",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 8,
-              "blur": 8,
-              "spread": -4
-            },
-            {
-              "color": "{colors.effects.shadowColors.shadowColor06}",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 3,
-              "blur": 3,
-              "spread": -1.5
-            }
-          ],
-          "type": "boxShadow",
-          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+        "lg": {
+          "1": {
+            "value": [
+              {
+                "color": "{colors.effects.shadowColors.shadowColor04}",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 12,
+                "blur": 16,
+                "spread": -4
+              },
+              {
+                "color": "{colors.effects.shadowColors.shadowColor05}",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 4,
+                "blur": 6,
+                "spread": -2
+              },
+              {
+                "color": "{colors.effects.shadowColors.shadowColor06}",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 2,
+                "blur": 2,
+                "spread": -1
+              }
+            ],
+            "type": "boxShadow",
+            "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+          }
         },
-        "shadow2xl": {
-          "value": [
-            {
-              "color": "{colors.effects.shadowColors.shadowColor07}",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 24,
-              "blur": 48,
-              "spread": -12
-            },
-            {
-              "color": "{colors.effects.shadowColors.shadowColor06}",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 4,
-              "blur": 4,
-              "spread": -2
-            }
-          ],
-          "type": "boxShadow",
-          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+        "xl": {
+          "1": {
+            "value": [
+              {
+                "color": "{colors.effects.shadowColors.shadowColor04}",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 20,
+                "blur": 24,
+                "spread": -4
+              },
+              {
+                "color": "{colors.effects.shadowColors.shadowColor05}",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 8,
+                "blur": 8,
+                "spread": -4
+              },
+              {
+                "color": "{colors.effects.shadowColors.shadowColor06}",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 3,
+                "blur": 3,
+                "spread": -1.5
+              }
+            ],
+            "type": "boxShadow",
+            "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+          }
         },
-        "shadow3xl": {
-          "value": [
-            {
-              "color": "{colors.effects.shadowColors.shadowColor08}",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 32,
-              "blur": 64,
-              "spread": -12
-            },
-            {
-              "color": "{colors.effects.shadowColors.shadowColor06}",
-              "type": "dropShadow",
-              "x": 0,
-              "y": 5,
-              "blur": 5,
-              "spread": -2.5
-            }
-          ],
-          "type": "boxShadow",
-          "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+        "2xl": {
+          "1": {
+            "value": [
+              {
+                "color": "{colors.effects.shadowColors.shadowColor07}",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 24,
+                "blur": 48,
+                "spread": -12
+              },
+              {
+                "color": "{colors.effects.shadowColors.shadowColor06}",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 4,
+                "blur": 4,
+                "spread": -2
+              }
+            ],
+            "type": "boxShadow",
+            "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+          }
+        },
+        "3xl": {
+          "1": {
+            "value": [
+              {
+                "color": "{colors.effects.shadowColors.shadowColor08}",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 32,
+                "blur": 64,
+                "spread": -12
+              },
+              {
+                "color": "{colors.effects.shadowColors.shadowColor06}",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 5,
+                "blur": 5,
+                "spread": -2.5
+              }
+            ],
+            "type": "boxShadow",
+            "description": "Shadows allow you to add depth and realism to designs by positioning elements on a z-axis."
+          }
         }
       },
       "portfolioMockups": {
