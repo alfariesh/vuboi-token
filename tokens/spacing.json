@@ -1,70 +1,70 @@
 {
-  "spacing-none": {
-    "value": "{Spacing.0 (0px)}",
+  "spacingNone": {
+    "value": "{spacing.0}",
     "type": "number"
   },
-  "spacing-xxs": {
-    "value": "{Spacing.0․5 (2px)}",
+  "spacingXxs": {
+    "value": "{spacing.0․5}",
     "type": "number"
   },
-  "spacing-xs": {
-    "value": "{Spacing.1 (4px)}",
+  "spacingXs": {
+    "value": "{spacing.1}",
     "type": "number"
   },
-  "spacing-md": {
-    "value": "{Spacing.2 (8px)}",
+  "spacingMd": {
+    "value": "{spacing.2}",
     "type": "number"
   },
-  "spacing-lg": {
-    "value": "{Spacing.3 (12px)}",
+  "spacingLg": {
+    "value": "{spacing.3}",
     "type": "number"
   },
-  "spacing-xl": {
-    "value": "{Spacing.4 (16px)}",
+  "spacingXl": {
+    "value": "{spacing.4}",
     "type": "number"
   },
-  "spacing-2xl": {
-    "value": "{Spacing.5 (20px)}",
+  "spacing2xl": {
+    "value": "{spacing.5}",
     "type": "number"
   },
-  "spacing-3xl": {
-    "value": "{Spacing.6 (24px)}",
+  "spacing3xl": {
+    "value": "{spacing.6}",
     "type": "number"
   },
-  "spacing-4xl": {
-    "value": "{Spacing.8 (32px)}",
+  "spacing4xl": {
+    "value": "{spacing.8}",
     "type": "number"
   },
-  "spacing-6xl": {
-    "value": "{Spacing.12 (48px)}",
+  "spacing6xl": {
+    "value": "{spacing.12}",
     "type": "number"
   },
-  "spacing-7xl": {
-    "value": "{Spacing.16 (64px)}",
+  "spacing7xl": {
+    "value": "{spacing.16}",
     "type": "number"
   },
-  "spacing-8xl": {
-    "value": "{Spacing.20 (80px)}",
+  "spacing8xl": {
+    "value": "{spacing.20}",
     "type": "number"
   },
-  "spacing-9xl": {
-    "value": "{Spacing.24 (96px)}",
+  "spacing9xl": {
+    "value": "{spacing.24}",
     "type": "number"
   },
-  "spacing-10xl": {
-    "value": "{Spacing.32 (128px)}",
+  "spacing10xl": {
+    "value": "{spacing.32}",
     "type": "number"
   },
-  "spacing-11xl": {
-    "value": "{Spacing.40 (160px)}",
+  "spacing11xl": {
+    "value": "{spacing.40}",
     "type": "number"
   },
-  "spacing-sm": {
-    "value": "{Spacing.1․5 (6px)}",
+  "spacingSm": {
+    "value": "{spacing.1․5}",
     "type": "number"
   },
-  "spacing-5xl": {
-    "value": "{Spacing.10 (40px)}",
+  "spacing5xl": {
+    "value": "{spacing.10}",
     "type": "number"
   }
 }

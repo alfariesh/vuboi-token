@@ -1,50 +1,50 @@
 {
-  "width-xxs": {
-    "value": "{Sizing.80 (320px)}",
+  "widthXxs": {
+    "value": "{sizing.80}",
     "type": "number"
   },
-  "width-sm": {
-    "value": "{Sizing.120 (480px)}",
+  "widthSm": {
+    "value": "{sizing.120}",
     "type": "number"
   },
-  "width-lg": {
-    "value": "{Sizing.160 (640px)}",
+  "widthLg": {
+    "value": "{sizing.160}",
     "type": "number"
   },
-  "width-xl": {
-    "value": "{Sizing.192 (768px)}",
+  "widthXl": {
+    "value": "{sizing.192}",
     "type": "number"
   },
-  "width-2xl": {
-    "value": "{Sizing.256 (1,024px)}",
+  "width2xl": {
+    "value": "{sizing.256}",
     "type": "number"
   },
-  "width-3xl": {
-    "value": "{Sizing.320 (1,280px)}",
+  "width3xl": {
+    "value": "{sizing.320}",
     "type": "number"
   },
-  "width-4xl": {
-    "value": "{Sizing.360 (1,440px)}",
+  "width4xl": {
+    "value": "{sizing.360}",
     "type": "number"
   },
-  "width-5xl": {
-    "value": "{Sizing.400 (1,600px)}",
+  "width5xl": {
+    "value": "{sizing.400}",
     "type": "number"
   },
-  "width-6xl": {
-    "value": "{Sizing.480 (1,920px)}",
+  "width6xl": {
+    "value": "{sizing.480}",
     "type": "number"
   },
-  "width-md": {
-    "value": "{Sizing.140 (560px)}",
+  "widthMd": {
+    "value": "{sizing.140}",
     "type": "number"
   },
-  "paragraph-max-width": {
-    "value": "{Sizing.180 (720px)}",
+  "paragraphMaxWidth": {
+    "value": "{sizing.180}",
     "type": "number"
   },
-  "width-xs": {
-    "value": "{Spacing.96 (384px)}",
+  "widthXs": {
+    "value": "{spacing.96}",
     "type": "number"
   }
 }
