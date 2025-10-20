@@ -880,31 +880,31 @@
           "type": "color"
         },
         "utilityBrand50Alt": {
-          "value": "{component-colors.Utility.Gray.utility-gray-50}",
+          "value": "{componentColors.utility.gray.utilityGray50}",
           "type": "color"
         },
         "utilityBrand100Alt": {
-          "value": "{component-colors.Utility.Gray.utility-gray-100}",
+          "value": "{componentColors.utility.gray.utilityGray100}",
           "type": "color"
         },
         "utilityBrand200Alt": {
-          "value": "{component-colors.Utility.Gray.utility-gray-200}",
+          "value": "{componentColors.utility.gray.utilityGray200}",
           "type": "color"
         },
         "utilityBrand400Alt": {
-          "value": "{component-colors.Utility.Gray.utility-gray-400}",
+          "value": "{componentColors.utility.gray.utilityGray400}",
           "type": "color"
         },
         "utilityBrand500Alt": {
-          "value": "{component-colors.Utility.Gray.utility-gray-500}",
+          "value": "{componentColors.utility.gray.utilityGray500}",
           "type": "color"
         },
         "utilityBrand600Alt": {
-          "value": "{component-colors.Utility.Gray.utility-gray-600}",
+          "value": "{componentColors.utility.gray.utilityGray600}",
           "type": "color"
         },
         "utilityBrand700Alt": {
-          "value": "{component-colors.Utility.Gray.utility-gray-700}",
+          "value": "{componentColors.utility.gray.utilityGray700}",
           "type": "color"
         },
         "utilityBrand300": {
@@ -920,15 +920,15 @@
           "type": "color"
         },
         "utilityBrand300Alt": {
-          "value": "{component-colors.Utility.Gray.utility-gray-300}",
+          "value": "{componentColors.utility.gray.utilityGray300}",
           "type": "color"
         },
         "utilityBrand800Alt": {
-          "value": "{component-colors.Utility.Gray.utility-gray-800}",
+          "value": "{componentColors.utility.gray.utilityGray800}",
           "type": "color"
         },
         "utilityBrand900Alt": {
-          "value": "{component-colors.Utility.Gray.utility-gray-900}",
+          "value": "{componentColors.utility.gray.utilityGray900}",
           "type": "color"
         }
       },
