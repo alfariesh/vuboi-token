@@ -340,11 +340,11 @@
         "type": "color"
       },
       "fgBrandPrimaryAlt": {
-        "value": "{colors.foreground.fgBrandPrimary}",
+        "value": "{colors.foreground.fgBrandPrimary600}",
         "type": "color"
       },
       "fgBrandSecondaryAlt": {
-        "value": "{colors.foreground.fgBrandSecondary}",
+        "value": "{colors.foreground.fgBrandSecondary500}",
         "type": "color"
       },
       "fgBrandSecondaryHover": {
@@ -423,7 +423,7 @@
           "type": "color"
         }
       },
-      "portfolio mockups": {
+      "portfolioMockups": {
         "shadowMainCentreMd": {
           "value": "#0a0d1224",
           "type": "color"
@@ -441,7 +441,7 @@
           "type": "color"
         }
       },
-      "focus rings": {
+      "focusRings": {
         "focusRing": {
           "value": "{colors.brand.500}",
           "type": "color"
@@ -749,7 +749,7 @@
           "type": "color"
         }
       },
-      "blue dark": {
+      "blueDark": {
         "utilityBlueDark600": {
           "value": "{colors.blueDark.600}",
           "type": "color"
@@ -919,7 +919,7 @@
           "type": "color"
         }
       },
-      "orange dark": {
+      "orangeDark": {
         "utilityOrangeDark600": {
           "value": "{colors.orangeDark.600}",
           "type": "color"
@@ -953,7 +953,7 @@
           "type": "color"
         }
       },
-      "blue light": {
+      "blueLight": {
         "utilityBlueLight600": {
           "value": "{colors.blueLight.600}",
           "type": "color"
@@ -987,7 +987,7 @@
           "type": "color"
         }
       },
-      "gray blue": {
+      "grayBlue": {
         "utilityGrayBlue600": {
           "value": "{colors.grayBlue.600}",
           "type": "color"
@@ -1097,7 +1097,7 @@
           "type": "color"
         }
       },
-      "text editor": {
+      "textEditor": {
         "textEditorIconFg": {
           "value": "{colors.grayLightMode.400}",
           "type": "color"
@@ -1108,7 +1108,7 @@
         }
       },
       "icons": {
-        "featured icons": {
+        "featuredIcons": {
           "featuredIconLightFgBrand": {
             "value": "{colors.brand.600}",
             "type": "color"
@@ -1167,7 +1167,7 @@
           "type": "color"
         }
       },
-      "app store badges": {
+      "appStoreBadges": {
         "appStoreBadgeBorder": {
           "value": "#a6a6a6",
           "type": "color"
@@ -1187,7 +1187,7 @@
           "type": "color"
         },
         "toggleSlimBorderPressedHover": {
-          "value": "{colors.background.bgBrandSolid_hover}",
+          "value": "{colors.background.bgBrandSolidHover}",
           "type": "color"
         }
       },
