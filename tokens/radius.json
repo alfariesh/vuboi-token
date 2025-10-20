@@ -1,46 +1,48 @@
 {
-  "radius-none": {
-    "value": "0",
-    "type": "borderRadius"
-  },
-  "radius-xxs": {
-    "value": "2",
-    "type": "borderRadius"
-  },
-  "radius-xs": {
-    "value": "4",
-    "type": "borderRadius"
-  },
-  "radius-sm": {
-    "value": "6",
-    "type": "borderRadius"
-  },
-  "radius-md": {
-    "value": "8",
-    "type": "borderRadius"
-  },
-  "radius-xl": {
-    "value": "12",
-    "type": "borderRadius"
-  },
-  "radius-2xl": {
-    "value": "16",
-    "type": "borderRadius"
-  },
-  "radius-4xl": {
-    "value": "24",
-    "type": "borderRadius"
-  },
-  "radius-full": {
-    "value": "9999",
-    "type": "borderRadius"
-  },
-  "radius-lg": {
-    "value": "10",
-    "type": "borderRadius"
-  },
-  "radius-3xl": {
-    "value": "20",
-    "type": "borderRadius"
+  "borderRadius": {
+    "radiusNone": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "radiusXxs": {
+      "value": "2",
+      "type": "borderRadius"
+    },
+    "radiusXs": {
+      "value": "4",
+      "type": "borderRadius"
+    },
+    "radiusSm": {
+      "value": "6",
+      "type": "borderRadius"
+    },
+    "radiusMd": {
+      "value": "8",
+      "type": "borderRadius"
+    },
+    "radiusXl": {
+      "value": "12",
+      "type": "borderRadius"
+    },
+    "radius2xl": {
+      "value": "16",
+      "type": "borderRadius"
+    },
+    "radius4xl": {
+      "value": "24",
+      "type": "borderRadius"
+    },
+    "radiusFull": {
+      "value": "9999",
+      "type": "borderRadius"
+    },
+    "radiusLg": {
+      "value": "10",
+      "type": "borderRadius"
+    },
+    "radius3xl": {
+      "value": "20",
+      "type": "borderRadius"
+    }
   }
 }
