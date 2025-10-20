@@ -1,0 +1,5 @@
+{
+  "version": "1.0",
+  "host": "graphql.prod.tokens.studio",
+  "output": "tokens/modes"
+}

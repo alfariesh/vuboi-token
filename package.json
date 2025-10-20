@@ -1,0 +1,70 @@
+{
+  "name": "@vuboi/tokens",
+  "version": "1.0.0",
+  "description": "Vuboi Design Token System - Comprehensive design tokens for cross-platform UI",
+  "main": "build/web/js/index.js",
+  "types": "build/web/ts/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./build/web/js/index.esm.js",
+      "require": "./build/web/js/index.js",
+      "types": "./build/web/ts/index.d.ts"
+    },
+    "./css": "./build/web/css/variables.css",
+    "./scss": "./build/web/scss/variables.scss",
+    "./json": "./build/web/json/tokens.json",
+    "./flutter": "./build/mobile/flutter/tokens.dart",
+    "./compose": "./build/mobile/compose/Tokens.kt",
+    "./android": "./build/android/values/",
+    "./ios": "./build/ios/Tokens.swift"
+  },
+  "files": [
+    "build/",
+    "tokens/",
+    "config.json",
+    ".tokensstudio.json"
+  ],
+  "scripts": {
+    "build": "style-dictionary build -c config.json",
+    "build:watch": "style-dictionary build -c config.json --watch",
+    "build:web": "style-dictionary build -c config.json --platform web",
+    "build:mobile": "style-dictionary build -c config.json --platform mobile",
+    "build:android": "style-dictionary build -c config.json --platform android",
+    "build:ios": "style-dictionary build -c config.json --platform ios",
+    "tokens:pull": "npx @tokens-studio/sdk pull",
+    "tokens:sync": "npm run tokens:pull && npm run build",
+    "tokens:setup": "npx @tokens-studio/sdk setup --host graphql.prod.tokens.studio",
+    "clean": "rm -rf build/",
+    "prebuild": "npm run clean"
+  },
+  "keywords": [
+    "design-tokens",
+    "design-system",
+    "vuboi",
+    "ui-framework",
+    "style-dictionary",
+    "tokens-studio"
+  ],
+  "author": "Vuboi Design System Team",
+  "license": "All rights reserved",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alfariesh/vuboi-token.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alfariesh/vuboi-token/issues"
+  },
+  "homepage": "https://github.com/alfariesh/vuboi-token#readme",
+  "devDependencies": {
+    "@tokens-studio/sd-transforms": "^1.0.0",
+    "style-dictionary": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
